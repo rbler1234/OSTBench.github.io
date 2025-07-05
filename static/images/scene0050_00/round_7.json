@@ -1,0 +1,93 @@
+{
+    "turn_id": 7,
+    "type": "A_room-size(float)",
+    "image_paths": [
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01200.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01240.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01280.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01320.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01360.jpg"
+    ],
+    "agent_pos": [
+        [
+            -1.58,
+            -1.95
+        ],
+        [
+            -1.53,
+            -1.75
+        ],
+        [
+            -1.49,
+            -1.27
+        ],
+        [
+            -1.42,
+            -1.05
+        ],
+        [
+            -1.49,
+            -1.04
+        ]
+    ],
+    "agent_front": [
+        [
+            0.62,
+            -0.52
+        ],
+        [
+            0.7,
+            -0.47
+        ],
+        [
+            0.92,
+            -0.38
+        ],
+        [
+            0.69,
+            -0.43
+        ],
+        [
+            0.42,
+            -0.44
+        ]
+    ],
+    "candidate_": [
+        {
+            "question": "How much space has your field of view traversed so far? (in square meters)",
+            "answer": 14.05,
+            "option": [],
+            "info": {},
+            "trans_question": "本轮没有问题",
+            "trans_answer": "",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "How much space has your field of view traversed so far? (in square meters)",
+            "answer": 14.05,
+            "option": [],
+            "info": {},
+            "trans_question": "本轮没有问题",
+            "trans_answer": "",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "How much space has your field of view traversed so far? (in square meters)",
+            "answer": 14.05,
+            "option": [],
+            "info": {},
+            "trans_question": "本轮没有问题",
+            "trans_answer": "",
+            "trans_info": {},
+            "chinese_info": {}
+        }
+    ],
+    "shuffle_order": [
+        1,
+        0,
+        2
+    ],
+    "index": 0
+}

@@ -1,0 +1,3700 @@
+{
+    "turn_id": 10,
+    "type": "A_object-existence(int2)",
+    "image_paths": [
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01800.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01840.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01880.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01920.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01960.jpg"
+    ],
+    "agent_pos": [
+        [
+            -1.52,
+            -1.44
+        ],
+        [
+            -1.57,
+            -1.41
+        ],
+        [
+            -1.51,
+            -1.37
+        ],
+        [
+            -1.36,
+            -1.41
+        ],
+        [
+            -1.1,
+            -1.42
+        ]
+    ],
+    "agent_front": [
+        [
+            0.03,
+            0.98
+        ],
+        [
+            0.47,
+            0.88
+        ],
+        [
+            0.6,
+            0.63
+        ],
+        [
+            0.69,
+            0.39
+        ],
+        [
+            0.9,
+            0.31
+        ]
+    ],
+    "candidate_": [
+        {
+            "question": "In which turn did you see both \"the rectangular brown leather ottoman with a smooth top\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the cylindrical teal-handled cup with a white interior\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the bag\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "bag_24": "the bag",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[袋子 <bag_24>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the bag<bag_24>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[袋子 <bag_24>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the plain gray vertical printer made of plastic\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "printer_14": "the plain gray vertical printer made of plastic",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[由塑料制成的灰色竖立的打印机 <printer_14>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the plain gray vertical printer made of plastic<printer_14>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[由塑料制成的灰色竖立的打印机 <printer_14>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular light gray wooden desk\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "desk_5": "the rectangular light gray wooden desk",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[浅灰色矩形木质桌子 <desk_5>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular light gray wooden desk<desk_5>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[浅灰色矩形木质桌子 <desk_5>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the cylindrical teal-handled cup with a white interior\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "cup_22": "the cylindrical teal-handled cup with a white interior",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the cylindrical teal-handled cup with a white interior<cup_22>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular white wooden shelf\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "shelf_15": "the rectangular white wooden shelf",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[矩形的白色木质架子 <shelf_15>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular white wooden shelf<shelf_15>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[矩形的白色木质架子 <shelf_15>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the plain gray vertical printer made of plastic\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "printer_14": "the plain gray vertical printer made of plastic",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[由塑料制成的灰色竖立的打印机 <printer_14>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the plain gray vertical printer made of plastic<printer_14>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[由塑料制成的灰色竖立的打印机 <printer_14>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the rectangular white wooden shelf\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[矩形的白色木质架子 <shelf_15>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the rectangular, creamy textured pillow made of cotton\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[棉制的长方形奶油色纹理枕头 <pillow_40>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the rectangular, creamy textured pillow made of cotton<pillow_40>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the bag\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[袋子 <bag_24>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized white cylindrical lamp made of plastic\" and \"the rounded rectangular clock with a sleek metallic finish\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "lamp_7": "the medium-sized white cylindrical lamp made of plastic",
+                "clock_35": "the rounded rectangular clock with a sleek metallic finish"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中号白色塑料圆柱灯 <lamp_7>]和[带有光滑金属饰面的圆角矩形时钟 <clock_35>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the medium-sized white cylindrical lamp made of plastic<lamp_7>",
+                "<2>": "the rounded rectangular clock with a sleek metallic finish<clock_35>"
+            },
+            "chinese_info": {
+                "<1>": "[中号白色塑料圆柱灯 <lamp_7>]",
+                "<2>": "[带有光滑金属饰面的圆角矩形时钟 <clock_35>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the bag\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[袋子 <bag_24>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the bag\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "bag_24": "the bag",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[袋子 <bag_24>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the bag<bag_24>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[袋子 <bag_24>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular brown leather ottoman with a smooth top\" and \"the rounded rectangular clock with a sleek metallic finish\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "clock_35": "the rounded rectangular clock with a sleek metallic finish"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]和[带有光滑金属饰面的圆角矩形时钟 <clock_35>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<2>": "the rounded rectangular clock with a sleek metallic finish<clock_35>"
+            },
+            "chinese_info": {
+                "<1>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<2>": "[带有光滑金属饰面的圆角矩形时钟 <clock_35>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized brown leather couch\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中等尺寸的棕色皮沙发 <couch_12>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the medium-sized brown leather couch<couch_12>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the cylindrical teal-handled cup with a white interior\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the rounded rectangular clock with a sleek metallic finish\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "clock_35": "the rounded rectangular clock with a sleek metallic finish"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[带有光滑金属饰面的圆角矩形时钟 <clock_35>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the rounded rectangular clock with a sleek metallic finish<clock_35>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[带有光滑金属饰面的圆角矩形时钟 <clock_35>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the plain gray vertical printer made of plastic\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[由塑料制成的灰色竖立的打印机 <printer_14>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the bag\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[袋子 <bag_24>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the rectangular white wooden shelf\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[矩形的白色木质架子 <shelf_15>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the bag\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[袋子 <bag_24>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the white rectangular tissue box with floral patterns\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "tissue box_6": "the white rectangular tissue box with floral patterns"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[带有花卉图案的白色长方形纸巾盒 <tissue box_6>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the white rectangular tissue box with floral patterns<tissue box_6>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the plain gray vertical printer made of plastic\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "printer_14": "the plain gray vertical printer made of plastic",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[由塑料制成的灰色竖立的打印机 <printer_14>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the plain gray vertical printer made of plastic<printer_14>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[由塑料制成的灰色竖立的打印机 <printer_14>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the plain gray vertical printer made of plastic\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[由塑料制成的灰色竖立的打印机 <printer_14>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the cylindrical teal-handled cup with a white interior\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "cup_22": "the cylindrical teal-handled cup with a white interior",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the cylindrical teal-handled cup with a white interior<cup_22>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the white rectangular tissue box with floral patterns\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "tissue box_6": "the white rectangular tissue box with floral patterns"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[带有花卉图案的白色长方形纸巾盒 <tissue box_6>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the white rectangular tissue box with floral patterns<tissue box_6>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the plain gray vertical printer made of plastic\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "printer_14": "the plain gray vertical printer made of plastic",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[由塑料制成的灰色竖立的打印机 <printer_14>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the plain gray vertical printer made of plastic<printer_14>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[由塑料制成的灰色竖立的打印机 <printer_14>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the cylindrical teal-handled cup with a white interior\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the white rectangular tissue box with floral patterns\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "tissue box_6": "the white rectangular tissue box with floral patterns"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[带有花卉图案的白色长方形纸巾盒 <tissue box_6>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the white rectangular tissue box with floral patterns<tissue box_6>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the white rectangular tissue box with floral patterns\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "tissue box_6": "the white rectangular tissue box with floral patterns"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[带有花卉图案的白色长方形纸巾盒 <tissue box_6>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the white rectangular tissue box with floral patterns<tissue box_6>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the cylindrical teal-handled cup with a white interior\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the white rectangular tissue box with floral patterns\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "tissue box_6": "the white rectangular tissue box with floral patterns"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[带有花卉图案的白色长方形纸巾盒 <tissue box_6>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the white rectangular tissue box with floral patterns<tissue box_6>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular brown leather ottoman with a smooth top\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the cylindrical teal-handled cup with a white interior\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the bag\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[袋子 <bag_24>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the plain gray vertical printer made of plastic\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "printer_14": "the plain gray vertical printer made of plastic",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[由塑料制成的灰色竖立的打印机 <printer_14>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the plain gray vertical printer made of plastic<printer_14>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[由塑料制成的灰色竖立的打印机 <printer_14>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the bag\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[袋子 <bag_24>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular light gray wooden desk\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "desk_5": "the rectangular light gray wooden desk",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[浅灰色矩形木质桌子 <desk_5>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular light gray wooden desk<desk_5>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[浅灰色矩形木质桌子 <desk_5>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the rectangular white wooden shelf\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[矩形的白色木质架子 <shelf_15>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the plain gray vertical printer made of plastic\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[由塑料制成的灰色竖立的打印机 <printer_14>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the bag\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "bag_24": "the bag",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[袋子 <bag_24>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the bag<bag_24>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[袋子 <bag_24>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular light gray wooden desk\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "desk_5": "the rectangular light gray wooden desk",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[浅灰色矩形木质桌子 <desk_5>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular light gray wooden desk<desk_5>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[浅灰色矩形木质桌子 <desk_5>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the rectangular white wooden shelf\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[矩形的白色木质架子 <shelf_15>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the plain gray vertical printer made of plastic\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "printer_14": "the plain gray vertical printer made of plastic",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[由塑料制成的灰色竖立的打印机 <printer_14>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the plain gray vertical printer made of plastic<printer_14>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[由塑料制成的灰色竖立的打印机 <printer_14>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular light gray wooden desk\" and \"the rounded rectangular clock with a sleek metallic finish\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "desk_5": "the rectangular light gray wooden desk",
+                "clock_35": "the rounded rectangular clock with a sleek metallic finish"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[浅灰色矩形木质桌子 <desk_5>]和[带有光滑金属饰面的圆角矩形时钟 <clock_35>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the rectangular light gray wooden desk<desk_5>",
+                "<2>": "the rounded rectangular clock with a sleek metallic finish<clock_35>"
+            },
+            "chinese_info": {
+                "<1>": "[浅灰色矩形木质桌子 <desk_5>]",
+                "<2>": "[带有光滑金属饰面的圆角矩形时钟 <clock_35>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the rectangular white wooden shelf\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[矩形的白色木质架子 <shelf_15>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the rectangular, creamy textured pillow made of cotton\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[棉制的长方形奶油色纹理枕头 <pillow_40>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the rectangular, creamy textured pillow made of cotton<pillow_40>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the rectangular, creamy textured pillow made of cotton\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[棉制的长方形奶油色纹理枕头 <pillow_40>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the rectangular, creamy textured pillow made of cotton<pillow_40>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular white wooden shelf\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "shelf_15": "the rectangular white wooden shelf",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[矩形的白色木质架子 <shelf_15>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular white wooden shelf<shelf_15>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[矩形的白色木质架子 <shelf_15>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the white rectangular tissue box with floral patterns\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "tissue box_6": "the white rectangular tissue box with floral patterns"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[带有花卉图案的白色长方形纸巾盒 <tissue box_6>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the white rectangular tissue box with floral patterns<tissue box_6>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized brown leather couch\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中等尺寸的棕色皮沙发 <couch_12>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the medium-sized brown leather couch<couch_12>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular white wooden shelf\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "shelf_15": "the rectangular white wooden shelf",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[矩形的白色木质架子 <shelf_15>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular white wooden shelf<shelf_15>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[矩形的白色木质架子 <shelf_15>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the plain gray vertical printer made of plastic\" and \"the rounded rectangular clock with a sleek metallic finish\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "printer_14": "the plain gray vertical printer made of plastic",
+                "clock_35": "the rounded rectangular clock with a sleek metallic finish"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[由塑料制成的灰色竖立的打印机 <printer_14>]和[带有光滑金属饰面的圆角矩形时钟 <clock_35>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the plain gray vertical printer made of plastic<printer_14>",
+                "<2>": "the rounded rectangular clock with a sleek metallic finish<clock_35>"
+            },
+            "chinese_info": {
+                "<1>": "[由塑料制成的灰色竖立的打印机 <printer_14>]",
+                "<2>": "[带有光滑金属饰面的圆角矩形时钟 <clock_35>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the bag\" and \"the rounded rectangular clock with a sleek metallic finish\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "bag_24": "the bag",
+                "clock_35": "the rounded rectangular clock with a sleek metallic finish"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[袋子 <bag_24>]和[带有光滑金属饰面的圆角矩形时钟 <clock_35>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the bag<bag_24>",
+                "<2>": "the rounded rectangular clock with a sleek metallic finish<clock_35>"
+            },
+            "chinese_info": {
+                "<1>": "[袋子 <bag_24>]",
+                "<2>": "[带有光滑金属饰面的圆角矩形时钟 <clock_35>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the plain gray vertical printer made of plastic\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[由塑料制成的灰色竖立的打印机 <printer_14>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the rectangular, creamy textured pillow made of cotton\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[棉制的长方形奶油色纹理枕头 <pillow_40>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the rectangular, creamy textured pillow made of cotton<pillow_40>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the rectangular, creamy textured pillow made of cotton\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[棉制的长方形奶油色纹理枕头 <pillow_40>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the rectangular, creamy textured pillow made of cotton<pillow_40>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the plain gray vertical printer made of plastic\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[由塑料制成的灰色竖立的打印机 <printer_14>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the white rectangular tissue box with floral patterns\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "tissue box_6": "the white rectangular tissue box with floral patterns"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[带有花卉图案的白色长方形纸巾盒 <tissue box_6>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the white rectangular tissue box with floral patterns<tissue box_6>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the cylindrical teal-handled cup with a white interior\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "cup_22": "the cylindrical teal-handled cup with a white interior",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the cylindrical teal-handled cup with a white interior<cup_22>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized white cylindrical lamp made of plastic\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "lamp_7": "the medium-sized white cylindrical lamp made of plastic",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中号白色塑料圆柱灯 <lamp_7>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the medium-sized white cylindrical lamp made of plastic<lamp_7>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[中号白色塑料圆柱灯 <lamp_7>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized white cylindrical lamp made of plastic\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "lamp_7": "the medium-sized white cylindrical lamp made of plastic",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中号白色塑料圆柱灯 <lamp_7>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the medium-sized white cylindrical lamp made of plastic<lamp_7>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[中号白色塑料圆柱灯 <lamp_7>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the cylindrical teal-handled cup with a white interior\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "cup_22": "the cylindrical teal-handled cup with a white interior",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the cylindrical teal-handled cup with a white interior<cup_22>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the rectangular white wooden shelf\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[矩形的白色木质架子 <shelf_15>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the white rectangular tissue box with floral patterns\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "tissue box_6": "the white rectangular tissue box with floral patterns"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[带有花卉图案的白色长方形纸巾盒 <tissue box_6>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the white rectangular tissue box with floral patterns<tissue box_6>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the cylindrical teal-handled cup with a white interior\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "cup_22": "the cylindrical teal-handled cup with a white interior",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the cylindrical teal-handled cup with a white interior<cup_22>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized white cylindrical lamp made of plastic\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "lamp_7": "the medium-sized white cylindrical lamp made of plastic",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中号白色塑料圆柱灯 <lamp_7>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the medium-sized white cylindrical lamp made of plastic<lamp_7>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[中号白色塑料圆柱灯 <lamp_7>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized brown leather couch\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中等尺寸的棕色皮沙发 <couch_12>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the medium-sized brown leather couch<couch_12>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the cylindrical teal-handled cup with a white interior\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the plain gray vertical printer made of plastic\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[由塑料制成的灰色竖立的打印机 <printer_14>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the cylindrical teal-handled cup with a white interior\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular brown leather ottoman with a smooth top\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the plain gray vertical printer made of plastic\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[由塑料制成的灰色竖立的打印机 <printer_14>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the cylindrical teal-handled cup with a white interior\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized white cylindrical lamp made of plastic\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "lamp_7": "the medium-sized white cylindrical lamp made of plastic",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中号白色塑料圆柱灯 <lamp_7>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the medium-sized white cylindrical lamp made of plastic<lamp_7>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[中号白色塑料圆柱灯 <lamp_7>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the cylindrical teal-handled cup with a white interior\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "cup_22": "the cylindrical teal-handled cup with a white interior",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the cylindrical teal-handled cup with a white interior<cup_22>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the bag\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[袋子 <bag_24>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the rectangular, creamy textured pillow made of cotton\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[棉制的长方形奶油色纹理枕头 <pillow_40>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the rectangular, creamy textured pillow made of cotton<pillow_40>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular white wooden shelf\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "shelf_15": "the rectangular white wooden shelf",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[矩形的白色木质架子 <shelf_15>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular white wooden shelf<shelf_15>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[矩形的白色木质架子 <shelf_15>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular light gray wooden desk\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "desk_5": "the rectangular light gray wooden desk",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[浅灰色矩形木质桌子 <desk_5>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular light gray wooden desk<desk_5>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[浅灰色矩形木质桌子 <desk_5>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the rectangular white wooden shelf\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[矩形的白色木质架子 <shelf_15>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the cylindrical teal-handled cup with a white interior\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the bag\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[袋子 <bag_24>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular white wooden shelf\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "shelf_15": "the rectangular white wooden shelf",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[矩形的白色木质架子 <shelf_15>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular white wooden shelf<shelf_15>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[矩形的白色木质架子 <shelf_15>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the bag\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "bag_24": "the bag",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[袋子 <bag_24>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the bag<bag_24>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[袋子 <bag_24>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the bag\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[袋子 <bag_24>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the cylindrical teal-handled cup with a white interior\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "cup_22": "the cylindrical teal-handled cup with a white interior",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the cylindrical teal-handled cup with a white interior<cup_22>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular light gray wooden desk\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "desk_5": "the rectangular light gray wooden desk",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[浅灰色矩形木质桌子 <desk_5>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular light gray wooden desk<desk_5>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[浅灰色矩形木质桌子 <desk_5>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the bag\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "bag_24": "the bag",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[袋子 <bag_24>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the bag<bag_24>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[袋子 <bag_24>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized white cylindrical lamp made of plastic\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "lamp_7": "the medium-sized white cylindrical lamp made of plastic",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中号白色塑料圆柱灯 <lamp_7>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the medium-sized white cylindrical lamp made of plastic<lamp_7>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[中号白色塑料圆柱灯 <lamp_7>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular brown leather ottoman with a smooth top\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the cylindrical teal-handled cup with a white interior\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the rectangular, creamy textured pillow made of cotton\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[棉制的长方形奶油色纹理枕头 <pillow_40>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the rectangular, creamy textured pillow made of cotton<pillow_40>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the cylindrical teal-handled cup with a white interior\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the plain gray vertical printer made of plastic\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[由塑料制成的灰色竖立的打印机 <printer_14>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the plain gray vertical printer made of plastic\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "printer_14": "the plain gray vertical printer made of plastic",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[由塑料制成的灰色竖立的打印机 <printer_14>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the plain gray vertical printer made of plastic<printer_14>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[由塑料制成的灰色竖立的打印机 <printer_14>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular white wooden shelf\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "shelf_15": "the rectangular white wooden shelf",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[矩形的白色木质架子 <shelf_15>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular white wooden shelf<shelf_15>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[矩形的白色木质架子 <shelf_15>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the rectangular, creamy textured pillow made of cotton\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[棉制的长方形奶油色纹理枕头 <pillow_40>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the rectangular, creamy textured pillow made of cotton<pillow_40>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the cylindrical teal-handled cup with a white interior\" and \"the rounded rectangular clock with a sleek metallic finish\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "cup_22": "the cylindrical teal-handled cup with a white interior",
+                "clock_35": "the rounded rectangular clock with a sleek metallic finish"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]和[带有光滑金属饰面的圆角矩形时钟 <clock_35>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the cylindrical teal-handled cup with a white interior<cup_22>",
+                "<2>": "the rounded rectangular clock with a sleek metallic finish<clock_35>"
+            },
+            "chinese_info": {
+                "<1>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]",
+                "<2>": "[带有光滑金属饰面的圆角矩形时钟 <clock_35>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the white rectangular tissue box with floral patterns\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "tissue box_6": "the white rectangular tissue box with floral patterns"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[带有花卉图案的白色长方形纸巾盒 <tissue box_6>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the white rectangular tissue box with floral patterns<tissue box_6>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized white cylindrical lamp made of plastic\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "lamp_7": "the medium-sized white cylindrical lamp made of plastic",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中号白色塑料圆柱灯 <lamp_7>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the medium-sized white cylindrical lamp made of plastic<lamp_7>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[中号白色塑料圆柱灯 <lamp_7>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the plain gray vertical printer made of plastic\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "printer_14": "the plain gray vertical printer made of plastic",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[由塑料制成的灰色竖立的打印机 <printer_14>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the plain gray vertical printer made of plastic<printer_14>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[由塑料制成的灰色竖立的打印机 <printer_14>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular brown leather ottoman with a smooth top\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular white wooden shelf\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "shelf_15": "the rectangular white wooden shelf",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[矩形的白色木质架子 <shelf_15>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular white wooden shelf<shelf_15>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[矩形的白色木质架子 <shelf_15>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the rectangular, creamy textured pillow made of cotton\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[棉制的长方形奶油色纹理枕头 <pillow_40>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the rectangular, creamy textured pillow made of cotton<pillow_40>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the bag\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[袋子 <bag_24>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the rectangular, creamy textured pillow made of cotton\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[棉制的长方形奶油色纹理枕头 <pillow_40>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the rectangular, creamy textured pillow made of cotton<pillow_40>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the cylindrical teal-handled cup with a white interior\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the plain gray vertical printer made of plastic\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[由塑料制成的灰色竖立的打印机 <printer_14>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the cylindrical teal-handled cup with a white interior\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the rectangular white wooden shelf\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[矩形的白色木质架子 <shelf_15>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the cylindrical teal-handled cup with a white interior\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "cup_22": "the cylindrical teal-handled cup with a white interior",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the cylindrical teal-handled cup with a white interior<cup_22>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the rectangular white wooden shelf\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[矩形的白色木质架子 <shelf_15>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the cylindrical teal-handled cup with a white interior\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the rectangular white wooden shelf\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[矩形的白色木质架子 <shelf_15>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the plain gray vertical printer made of plastic\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "printer_14": "the plain gray vertical printer made of plastic",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[由塑料制成的灰色竖立的打印机 <printer_14>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the plain gray vertical printer made of plastic<printer_14>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[由塑料制成的灰色竖立的打印机 <printer_14>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the bag\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[袋子 <bag_24>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the cylindrical teal-handled cup with a white interior\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized brown leather couch\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中等尺寸的棕色皮沙发 <couch_12>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the medium-sized brown leather couch<couch_12>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular white wooden shelf\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "shelf_15": "the rectangular white wooden shelf",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[矩形的白色木质架子 <shelf_15>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular white wooden shelf<shelf_15>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[矩形的白色木质架子 <shelf_15>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular light gray wooden desk\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "desk_5": "the rectangular light gray wooden desk",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[浅灰色矩形木质桌子 <desk_5>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular light gray wooden desk<desk_5>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[浅灰色矩形木质桌子 <desk_5>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the rectangular white wooden shelf\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[矩形的白色木质架子 <shelf_15>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the plain gray vertical printer made of plastic\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[由塑料制成的灰色竖立的打印机 <printer_14>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular brown leather ottoman with a smooth top\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized white cylindrical lamp made of plastic\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "lamp_7": "the medium-sized white cylindrical lamp made of plastic",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中号白色塑料圆柱灯 <lamp_7>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the medium-sized white cylindrical lamp made of plastic<lamp_7>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[中号白色塑料圆柱灯 <lamp_7>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the bag\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[袋子 <bag_24>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the bag\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[袋子 <bag_24>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the plain gray vertical printer made of plastic\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[由塑料制成的灰色竖立的打印机 <printer_14>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the cylindrical teal-handled cup with a white interior\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the rectangular white wooden shelf\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[矩形的白色木质架子 <shelf_15>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized brown leather couch\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中等尺寸的棕色皮沙发 <couch_12>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the medium-sized brown leather couch<couch_12>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular white wooden shelf\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "shelf_15": "the rectangular white wooden shelf",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[矩形的白色木质架子 <shelf_15>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular white wooden shelf<shelf_15>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[矩形的白色木质架子 <shelf_15>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the cylindrical teal-handled cup with a white interior\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the deep brown wooden piano with a music stand\" and \"the white rectangular tissue box with floral patterns\" simultaneously? ",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand",
+                "tissue box_6": "the white rectangular tissue box with floral patterns"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[深棕色的木质钢琴带有乐谱架 <piano_1>]和[带有花卉图案的白色长方形纸巾盒 <tissue box_6>](符合条件的轮次是唯一的)？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>",
+                "<2>": "the white rectangular tissue box with floral patterns<tissue box_6>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]",
+                "<2>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular white wooden shelf\" and \"the rounded rectangular clock with a sleek metallic finish\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "shelf_15": "the rectangular white wooden shelf",
+                "clock_35": "the rounded rectangular clock with a sleek metallic finish"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[矩形的白色木质架子 <shelf_15>]和[带有光滑金属饰面的圆角矩形时钟 <clock_35>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the rectangular white wooden shelf<shelf_15>",
+                "<2>": "the rounded rectangular clock with a sleek metallic finish<clock_35>"
+            },
+            "chinese_info": {
+                "<1>": "[矩形的白色木质架子 <shelf_15>]",
+                "<2>": "[带有光滑金属饰面的圆角矩形时钟 <clock_35>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the plain gray vertical printer made of plastic\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[由塑料制成的灰色竖立的打印机 <printer_14>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the rectangular white wooden shelf\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[矩形的白色木质架子 <shelf_15>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the rectangular white wooden shelf\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[矩形的白色木质架子 <shelf_15>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the bag\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "bag_24": "the bag",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[袋子 <bag_24>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the bag<bag_24>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[袋子 <bag_24>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the bag\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[袋子 <bag_24>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular light gray wooden desk\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "desk_5": "the rectangular light gray wooden desk",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[浅灰色矩形木质桌子 <desk_5>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular light gray wooden desk<desk_5>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[浅灰色矩形木质桌子 <desk_5>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular brown leather ottoman with a smooth top\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular light gray wooden desk\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "desk_5": "the rectangular light gray wooden desk",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[浅灰色矩形木质桌子 <desk_5>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular light gray wooden desk<desk_5>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[浅灰色矩形木质桌子 <desk_5>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the bag\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "bag_24": "the bag",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[袋子 <bag_24>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the bag<bag_24>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[袋子 <bag_24>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the rectangular white wooden shelf\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[矩形的白色木质架子 <shelf_15>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the plain gray vertical printer made of plastic\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[由塑料制成的灰色竖立的打印机 <printer_14>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the bag\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "bag_24": "the bag",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[袋子 <bag_24>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the bag<bag_24>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[袋子 <bag_24>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized white cylindrical lamp made of plastic\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "lamp_7": "the medium-sized white cylindrical lamp made of plastic",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中号白色塑料圆柱灯 <lamp_7>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the medium-sized white cylindrical lamp made of plastic<lamp_7>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[中号白色塑料圆柱灯 <lamp_7>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular brown leather ottoman with a smooth top\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the rectangular white wooden shelf\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[矩形的白色木质架子 <shelf_15>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular light gray wooden desk\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "desk_5": "the rectangular light gray wooden desk",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[浅灰色矩形木质桌子 <desk_5>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular light gray wooden desk<desk_5>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[浅灰色矩形木质桌子 <desk_5>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the plain gray vertical printer made of plastic\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[由塑料制成的灰色竖立的打印机 <printer_14>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the bag\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[袋子 <bag_24>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the bag\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[袋子 <bag_24>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the bag\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[袋子 <bag_24>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the cylindrical teal-handled cup with a white interior\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "cup_22": "the cylindrical teal-handled cup with a white interior",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the cylindrical teal-handled cup with a white interior<cup_22>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized white cylindrical lamp made of plastic\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "lamp_7": "the medium-sized white cylindrical lamp made of plastic",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中号白色塑料圆柱灯 <lamp_7>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the medium-sized white cylindrical lamp made of plastic<lamp_7>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[中号白色塑料圆柱灯 <lamp_7>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized brown leather couch\" and \"the rounded rectangular clock with a sleek metallic finish\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "clock_35": "the rounded rectangular clock with a sleek metallic finish"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中等尺寸的棕色皮沙发 <couch_12>]和[带有光滑金属饰面的圆角矩形时钟 <clock_35>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the medium-sized brown leather couch<couch_12>",
+                "<2>": "the rounded rectangular clock with a sleek metallic finish<clock_35>"
+            },
+            "chinese_info": {
+                "<1>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<2>": "[带有光滑金属饰面的圆角矩形时钟 <clock_35>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the plain gray vertical printer made of plastic\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[由塑料制成的灰色竖立的打印机 <printer_14>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the rectangular white wooden shelf\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[矩形的白色木质架子 <shelf_15>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the plain gray vertical printer made of plastic\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[由塑料制成的灰色竖立的打印机 <printer_14>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the bag\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "bag_24": "the bag",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[袋子 <bag_24>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the bag<bag_24>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[袋子 <bag_24>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the rectangular white wooden shelf\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[矩形的白色木质架子 <shelf_15>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the white rectangular tissue box with floral patterns\" and \"the bag\" simultaneously? ",
+            "answer": 10,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns",
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]和[袋子 <bag_24>](符合条件的轮次是唯一的)？",
+            "trans_answer": 10,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>",
+                "<2>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]",
+                "<2>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized brown leather couch\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中等尺寸的棕色皮沙发 <couch_12>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the medium-sized brown leather couch<couch_12>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized brown leather couch\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中等尺寸的棕色皮沙发 <couch_12>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the medium-sized brown leather couch<couch_12>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized brown leather couch\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中等尺寸的棕色皮沙发 <couch_12>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the medium-sized brown leather couch<couch_12>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the plain gray vertical printer made of plastic\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[由塑料制成的灰色竖立的打印机 <printer_14>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular brown leather ottoman with a smooth top\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the cylindrical teal-handled cup with a white interior\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the rectangular, creamy textured pillow made of cotton\" and \"the plain gray vertical printer made of plastic\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[棉制的长方形奶油色纹理枕头 <pillow_40>]和[由塑料制成的灰色竖立的打印机 <printer_14>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "In which turn did you see both \"the medium-sized brown leather couch\" and \"the clothes\" simultaneously? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮同时看到[中等尺寸的棕色皮沙发 <couch_12>]和[衣服 <clothes_37>](符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the medium-sized brown leather couch<couch_12>",
+                "<2>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<1>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<2>": "[衣服 <clothes_37>]"
+            }
+        }
+    ],
+    "shuffle_order": [
+        166,
+        163,
+        77,
+        165,
+        131,
+        53,
+        57,
+        151,
+        150,
+        66,
+        1,
+        140,
+        173,
+        102,
+        180,
+        167,
+        109,
+        124,
+        160,
+        61,
+        126,
+        26,
+        69,
+        47,
+        87,
+        0,
+        17,
+        161,
+        76,
+        116,
+        93,
+        107,
+        67,
+        154,
+        21,
+        86,
+        97,
+        13,
+        139,
+        68,
+        112,
+        125,
+        110,
+        123,
+        137,
+        96,
+        145,
+        72,
+        62,
+        55,
+        171,
+        138,
+        98,
+        3,
+        94,
+        59,
+        168,
+        37,
+        175,
+        181,
+        46,
+        155,
+        117,
+        23,
+        2,
+        38,
+        35,
+        16,
+        19,
+        24,
+        78,
+        133,
+        54,
+        52,
+        44,
+        65,
+        105,
+        127,
+        80,
+        48,
+        111,
+        95,
+        64,
+        22,
+        56,
+        91,
+        9,
+        158,
+        30,
+        176,
+        58,
+        106,
+        178,
+        148,
+        153,
+        149,
+        89,
+        10,
+        41,
+        6,
+        84,
+        74,
+        18,
+        79,
+        179,
+        135,
+        73,
+        174,
+        108,
+        113,
+        136,
+        159,
+        60,
+        82,
+        103,
+        29,
+        88,
+        104,
+        152,
+        28,
+        101,
+        81,
+        36,
+        11,
+        63,
+        128,
+        132,
+        129,
+        31,
+        5,
+        99,
+        146,
+        172,
+        7,
+        144,
+        156,
+        120,
+        43,
+        33,
+        75,
+        25,
+        40,
+        177,
+        50,
+        42,
+        85,
+        100,
+        20,
+        121,
+        34,
+        32,
+        15,
+        39,
+        162,
+        118,
+        115,
+        92,
+        51,
+        119,
+        170,
+        122,
+        45,
+        49,
+        164,
+        114,
+        12,
+        130,
+        169,
+        4,
+        157,
+        141,
+        134,
+        142,
+        83,
+        90,
+        71,
+        147,
+        27,
+        70,
+        143,
+        8,
+        14
+    ],
+    "index": 0
+}

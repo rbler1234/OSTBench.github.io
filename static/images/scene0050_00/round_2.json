@@ -1,0 +1,627 @@
+{
+    "turn_id": 2,
+    "type": "A_object-diversity(option)",
+    "image_paths": [
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00200.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00240.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00280.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00320.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00360.jpg"
+    ],
+    "agent_pos": [
+        [
+            0.0,
+            -0.56
+        ],
+        [
+            -0.07,
+            -0.51
+        ],
+        [
+            0.06,
+            -0.45
+        ],
+        [
+            0.04,
+            -0.41
+        ],
+        [
+            0.17,
+            -0.46
+        ]
+    ],
+    "agent_front": [
+        [
+            -0.44,
+            0.77
+        ],
+        [
+            -0.01,
+            0.89
+        ],
+        [
+            0.3,
+            0.85
+        ],
+        [
+            0.68,
+            0.6
+        ],
+        [
+            0.83,
+            0.31
+        ]
+    ],
+    "candidate_": [
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the rectangular light gray wooden desk\"; \"the rectangular brown leather ottoman with a smooth top\"; \"the medium-sized brown leather couch\" ",
+            "answer": "the rectangular light gray wooden desk",
+            "option": [
+                "the rectangular light gray wooden desk",
+                "the rectangular brown leather ottoman with a smooth top",
+                "the medium-sized brown leather couch"
+            ],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "desk_5": "the rectangular light gray wooden desk"
+            },
+            "trans_question": "[浅灰色矩形木质桌子 <desk_5>]、[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]、[中等尺寸的棕色皮沙发 <couch_12>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[浅灰色矩形木质桌子 <desk_5>]是本轮新发现的。",
+            "trans_info": {
+                "<3>": "the medium-sized brown leather couch<couch_12>",
+                "<2>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<1>": "the rectangular light gray wooden desk<desk_5>"
+            },
+            "chinese_info": {
+                "<3>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<2>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<1>": "[浅灰色矩形木质桌子 <desk_5>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the medium-sized white cylindrical lamp made of plastic\"; \"the medium-sized brown leather couch\"; \"the rectangular, creamy textured pillow made of cotton\" ",
+            "answer": "the medium-sized white cylindrical lamp made of plastic",
+            "option": [
+                "the medium-sized white cylindrical lamp made of plastic",
+                "the medium-sized brown leather couch",
+                "the rectangular, creamy textured pillow made of cotton"
+            ],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "lamp_7": "the medium-sized white cylindrical lamp made of plastic"
+            },
+            "trans_question": "[中号白色塑料圆柱灯 <lamp_7>]、[中等尺寸的棕色皮沙发 <couch_12>]、[棉制的长方形奶油色纹理枕头 <pillow_40>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[中号白色塑料圆柱灯 <lamp_7>]是本轮新发现的。",
+            "trans_info": {
+                "<2>": "the medium-sized brown leather couch<couch_12>",
+                "<3>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<1>": "the medium-sized white cylindrical lamp made of plastic<lamp_7>"
+            },
+            "chinese_info": {
+                "<2>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<3>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<1>": "[中号白色塑料圆柱灯 <lamp_7>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the rectangular brown leather ottoman with a smooth top\"; \"the medium-sized brown leather couch\"; \"the plain gray vertical printer made of plastic\" ",
+            "answer": "the plain gray vertical printer made of plastic",
+            "option": [
+                "the rectangular brown leather ottoman with a smooth top",
+                "the medium-sized brown leather couch",
+                "the plain gray vertical printer made of plastic"
+            ],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]、[中等尺寸的棕色皮沙发 <couch_12>]、[由塑料制成的灰色竖立的打印机 <printer_14>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[由塑料制成的灰色竖立的打印机 <printer_14>]是本轮新发现的。",
+            "trans_info": {
+                "<2>": "the medium-sized brown leather couch<couch_12>",
+                "<1>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<3>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<2>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<1>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<3>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the medium-sized white cylindrical lamp made of plastic\"; \"the rectangular brown leather ottoman with a smooth top\"; \"the medium-sized brown leather couch\" ",
+            "answer": "the medium-sized white cylindrical lamp made of plastic",
+            "option": [
+                "the medium-sized white cylindrical lamp made of plastic",
+                "the rectangular brown leather ottoman with a smooth top",
+                "the medium-sized brown leather couch"
+            ],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "lamp_7": "the medium-sized white cylindrical lamp made of plastic"
+            },
+            "trans_question": "[中号白色塑料圆柱灯 <lamp_7>]、[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]、[中等尺寸的棕色皮沙发 <couch_12>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[中号白色塑料圆柱灯 <lamp_7>]是本轮新发现的。",
+            "trans_info": {
+                "<3>": "the medium-sized brown leather couch<couch_12>",
+                "<2>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<1>": "the medium-sized white cylindrical lamp made of plastic<lamp_7>"
+            },
+            "chinese_info": {
+                "<3>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<2>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<1>": "[中号白色塑料圆柱灯 <lamp_7>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the medium-sized brown leather couch\"; \"the rectangular, creamy textured pillow made of cotton\"; \"the rectangular light gray wooden desk\" ",
+            "answer": "the rectangular light gray wooden desk",
+            "option": [
+                "the medium-sized brown leather couch",
+                "the rectangular, creamy textured pillow made of cotton",
+                "the rectangular light gray wooden desk"
+            ],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "desk_5": "the rectangular light gray wooden desk"
+            },
+            "trans_question": "[中等尺寸的棕色皮沙发 <couch_12>]、[棉制的长方形奶油色纹理枕头 <pillow_40>]、[浅灰色矩形木质桌子 <desk_5>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[浅灰色矩形木质桌子 <desk_5>]是本轮新发现的。",
+            "trans_info": {
+                "<1>": "the medium-sized brown leather couch<couch_12>",
+                "<2>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<3>": "the rectangular light gray wooden desk<desk_5>"
+            },
+            "chinese_info": {
+                "<1>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<2>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<3>": "[浅灰色矩形木质桌子 <desk_5>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the rectangular white wooden shelf\"; \"the medium-sized brown leather couch\"; \"the rectangular brown leather ottoman with a smooth top\" ",
+            "answer": "the rectangular white wooden shelf",
+            "option": [
+                "the rectangular white wooden shelf",
+                "the medium-sized brown leather couch",
+                "the rectangular brown leather ottoman with a smooth top"
+            ],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "[矩形的白色木质架子 <shelf_15>]、[中等尺寸的棕色皮沙发 <couch_12>]、[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[矩形的白色木质架子 <shelf_15>]是本轮新发现的。",
+            "trans_info": {
+                "<2>": "the medium-sized brown leather couch<couch_12>",
+                "<3>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<1>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<2>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<3>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<1>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the bag\"; \"the rectangular, creamy textured pillow made of cotton\"; \"the rectangular brown leather ottoman with a smooth top\" ",
+            "answer": "the bag",
+            "option": [
+                "the bag",
+                "the rectangular, creamy textured pillow made of cotton",
+                "the rectangular brown leather ottoman with a smooth top"
+            ],
+            "info": {
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "bag_24": "the bag"
+            },
+            "trans_question": "[袋子 <bag_24>]、[棉制的长方形奶油色纹理枕头 <pillow_40>]、[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[袋子 <bag_24>]是本轮新发现的。",
+            "trans_info": {
+                "<3>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<2>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<1>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<3>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<2>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<1>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the clothes\"; \"the rectangular brown leather ottoman with a smooth top\"; \"the rectangular, creamy textured pillow made of cotton\" ",
+            "answer": "the clothes",
+            "option": [
+                "the clothes",
+                "the rectangular brown leather ottoman with a smooth top",
+                "the rectangular, creamy textured pillow made of cotton"
+            ],
+            "info": {
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "[衣服 <clothes_37>]、[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]、[棉制的长方形奶油色纹理枕头 <pillow_40>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[衣服 <clothes_37>]是本轮新发现的。",
+            "trans_info": {
+                "<2>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<3>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<1>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<2>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<3>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<1>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the rectangular, creamy textured pillow made of cotton\"; \"the rectangular brown leather ottoman with a smooth top\"; \"the medium-sized white cylindrical lamp made of plastic\" ",
+            "answer": "the medium-sized white cylindrical lamp made of plastic",
+            "option": [
+                "the rectangular, creamy textured pillow made of cotton",
+                "the rectangular brown leather ottoman with a smooth top",
+                "the medium-sized white cylindrical lamp made of plastic"
+            ],
+            "info": {
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "lamp_7": "the medium-sized white cylindrical lamp made of plastic"
+            },
+            "trans_question": "[棉制的长方形奶油色纹理枕头 <pillow_40>]、[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]、[中号白色塑料圆柱灯 <lamp_7>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[中号白色塑料圆柱灯 <lamp_7>]是本轮新发现的。",
+            "trans_info": {
+                "<2>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<3>": "the medium-sized white cylindrical lamp made of plastic<lamp_7>"
+            },
+            "chinese_info": {
+                "<2>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<3>": "[中号白色塑料圆柱灯 <lamp_7>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the rectangular, creamy textured pillow made of cotton\"; \"the rectangular light gray wooden desk\"; \"the rectangular brown leather ottoman with a smooth top\" ",
+            "answer": "the rectangular light gray wooden desk",
+            "option": [
+                "the rectangular, creamy textured pillow made of cotton",
+                "the rectangular light gray wooden desk",
+                "the rectangular brown leather ottoman with a smooth top"
+            ],
+            "info": {
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "desk_5": "the rectangular light gray wooden desk"
+            },
+            "trans_question": "[棉制的长方形奶油色纹理枕头 <pillow_40>]、[浅灰色矩形木质桌子 <desk_5>]、[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[浅灰色矩形木质桌子 <desk_5>]是本轮新发现的。",
+            "trans_info": {
+                "<3>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the rectangular light gray wooden desk<desk_5>"
+            },
+            "chinese_info": {
+                "<3>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[浅灰色矩形木质桌子 <desk_5>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the rectangular brown leather ottoman with a smooth top\"; \"the medium-sized brown leather couch\"; \"the clothes\" ",
+            "answer": "the clothes",
+            "option": [
+                "the rectangular brown leather ottoman with a smooth top",
+                "the medium-sized brown leather couch",
+                "the clothes"
+            ],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]、[中等尺寸的棕色皮沙发 <couch_12>]、[衣服 <clothes_37>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[衣服 <clothes_37>]是本轮新发现的。",
+            "trans_info": {
+                "<2>": "the medium-sized brown leather couch<couch_12>",
+                "<1>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<3>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<2>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<1>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<3>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the cylindrical teal-handled cup with a white interior\"; \"the medium-sized brown leather couch\"; \"the rectangular, creamy textured pillow made of cotton\" ",
+            "answer": "the cylindrical teal-handled cup with a white interior",
+            "option": [
+                "the cylindrical teal-handled cup with a white interior",
+                "the medium-sized brown leather couch",
+                "the rectangular, creamy textured pillow made of cotton"
+            ],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]、[中等尺寸的棕色皮沙发 <couch_12>]、[棉制的长方形奶油色纹理枕头 <pillow_40>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]是本轮新发现的。",
+            "trans_info": {
+                "<2>": "the medium-sized brown leather couch<couch_12>",
+                "<3>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<1>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<2>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<3>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<1>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the rectangular brown leather ottoman with a smooth top\"; \"the rectangular, creamy textured pillow made of cotton\"; \"the rectangular white wooden shelf\" ",
+            "answer": "the rectangular white wooden shelf",
+            "option": [
+                "the rectangular brown leather ottoman with a smooth top",
+                "the rectangular, creamy textured pillow made of cotton",
+                "the rectangular white wooden shelf"
+            ],
+            "info": {
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]、[棉制的长方形奶油色纹理枕头 <pillow_40>]、[矩形的白色木质架子 <shelf_15>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[矩形的白色木质架子 <shelf_15>]是本轮新发现的。",
+            "trans_info": {
+                "<1>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<2>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<3>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<1>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<2>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<3>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the rectangular, creamy textured pillow made of cotton\"; \"the medium-sized brown leather couch\"; \"the clothes\" ",
+            "answer": "the clothes",
+            "option": [
+                "the rectangular, creamy textured pillow made of cotton",
+                "the medium-sized brown leather couch",
+                "the clothes"
+            ],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "clothes_37": "the clothes"
+            },
+            "trans_question": "[棉制的长方形奶油色纹理枕头 <pillow_40>]、[中等尺寸的棕色皮沙发 <couch_12>]、[衣服 <clothes_37>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[衣服 <clothes_37>]是本轮新发现的。",
+            "trans_info": {
+                "<2>": "the medium-sized brown leather couch<couch_12>",
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<3>": "the clothes<clothes_37>"
+            },
+            "chinese_info": {
+                "<2>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<3>": "[衣服 <clothes_37>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the rectangular, creamy textured pillow made of cotton\"; \"the rectangular white wooden shelf\"; \"the medium-sized brown leather couch\" ",
+            "answer": "the rectangular white wooden shelf",
+            "option": [
+                "the rectangular, creamy textured pillow made of cotton",
+                "the rectangular white wooden shelf",
+                "the medium-sized brown leather couch"
+            ],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "shelf_15": "the rectangular white wooden shelf"
+            },
+            "trans_question": "[棉制的长方形奶油色纹理枕头 <pillow_40>]、[矩形的白色木质架子 <shelf_15>]、[中等尺寸的棕色皮沙发 <couch_12>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[矩形的白色木质架子 <shelf_15>]是本轮新发现的。",
+            "trans_info": {
+                "<3>": "the medium-sized brown leather couch<couch_12>",
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the rectangular white wooden shelf<shelf_15>"
+            },
+            "chinese_info": {
+                "<3>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[矩形的白色木质架子 <shelf_15>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the bag\"; \"the rectangular, creamy textured pillow made of cotton\"; \"the medium-sized brown leather couch\" ",
+            "answer": "the bag",
+            "option": [
+                "the bag",
+                "the rectangular, creamy textured pillow made of cotton",
+                "the medium-sized brown leather couch"
+            ],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "bag_24": "the bag"
+            },
+            "trans_question": "[袋子 <bag_24>]、[棉制的长方形奶油色纹理枕头 <pillow_40>]、[中等尺寸的棕色皮沙发 <couch_12>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[袋子 <bag_24>]是本轮新发现的。",
+            "trans_info": {
+                "<3>": "the medium-sized brown leather couch<couch_12>",
+                "<2>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<1>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<3>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<2>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<1>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the medium-sized brown leather couch\"; \"the rectangular, creamy textured pillow made of cotton\"; \"the plain gray vertical printer made of plastic\" ",
+            "answer": "the plain gray vertical printer made of plastic",
+            "option": [
+                "the medium-sized brown leather couch",
+                "the rectangular, creamy textured pillow made of cotton",
+                "the plain gray vertical printer made of plastic"
+            ],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "[中等尺寸的棕色皮沙发 <couch_12>]、[棉制的长方形奶油色纹理枕头 <pillow_40>]、[由塑料制成的灰色竖立的打印机 <printer_14>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[由塑料制成的灰色竖立的打印机 <printer_14>]是本轮新发现的。",
+            "trans_info": {
+                "<1>": "the medium-sized brown leather couch<couch_12>",
+                "<2>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<3>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<2>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<3>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the cylindrical teal-handled cup with a white interior\"; \"the rectangular, creamy textured pillow made of cotton\"; \"the rectangular brown leather ottoman with a smooth top\" ",
+            "answer": "the cylindrical teal-handled cup with a white interior",
+            "option": [
+                "the cylindrical teal-handled cup with a white interior",
+                "the rectangular, creamy textured pillow made of cotton",
+                "the rectangular brown leather ottoman with a smooth top"
+            ],
+            "info": {
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]、[棉制的长方形奶油色纹理枕头 <pillow_40>]、[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]是本轮新发现的。",
+            "trans_info": {
+                "<3>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<2>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<1>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<3>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<2>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<1>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the bag\"; \"the medium-sized brown leather couch\"; \"the rectangular brown leather ottoman with a smooth top\" ",
+            "answer": "the bag",
+            "option": [
+                "the bag",
+                "the medium-sized brown leather couch",
+                "the rectangular brown leather ottoman with a smooth top"
+            ],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "bag_24": "the bag"
+            },
+            "trans_question": "[袋子 <bag_24>]、[中等尺寸的棕色皮沙发 <couch_12>]、[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[袋子 <bag_24>]是本轮新发现的。",
+            "trans_info": {
+                "<2>": "the medium-sized brown leather couch<couch_12>",
+                "<3>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<1>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<2>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<3>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<1>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the rectangular brown leather ottoman with a smooth top\"; \"the rectangular, creamy textured pillow made of cotton\"; \"the plain gray vertical printer made of plastic\" ",
+            "answer": "the plain gray vertical printer made of plastic",
+            "option": [
+                "the rectangular brown leather ottoman with a smooth top",
+                "the rectangular, creamy textured pillow made of cotton",
+                "the plain gray vertical printer made of plastic"
+            ],
+            "info": {
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]、[棉制的长方形奶油色纹理枕头 <pillow_40>]、[由塑料制成的灰色竖立的打印机 <printer_14>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[由塑料制成的灰色竖立的打印机 <printer_14>]是本轮新发现的。",
+            "trans_info": {
+                "<1>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<2>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<3>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<2>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<3>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the cylindrical teal-handled cup with a white interior\"; \"the medium-sized brown leather couch\"; \"the rectangular brown leather ottoman with a smooth top\" ",
+            "answer": "the cylindrical teal-handled cup with a white interior",
+            "option": [
+                "the cylindrical teal-handled cup with a white interior",
+                "the medium-sized brown leather couch",
+                "the rectangular brown leather ottoman with a smooth top"
+            ],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]、[中等尺寸的棕色皮沙发 <couch_12>]、[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]是本轮新发现的。",
+            "trans_info": {
+                "<2>": "the medium-sized brown leather couch<couch_12>",
+                "<3>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>",
+                "<1>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<2>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<3>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]",
+                "<1>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        }
+    ],
+    "shuffle_order": [
+        4,
+        7,
+        5,
+        0,
+        11,
+        2,
+        15,
+        17,
+        14,
+        18,
+        3,
+        13,
+        16,
+        10,
+        9,
+        8,
+        12,
+        20,
+        1,
+        19,
+        6
+    ],
+    "index": 0
+}

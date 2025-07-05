@@ -1,0 +1,102 @@
+{
+    "turn_id": 2,
+    "type": "AO_distance(int)",
+    "image_paths": [
+        "/mnt/petrelfs/linjingli/mmscan_modelzoo-main/llmzoo/LLaVA-3D-Beta/playground/data/LLaVA-3D-Pretrain/matterport3d/JmbYfDe2QKZ/matterport_color_images/8310b328af0a4096be09f78e30f2c53e_i2_4.jpg",
+        "/mnt/petrelfs/linjingli/mmscan_modelzoo-main/llmzoo/LLaVA-3D-Beta/playground/data/LLaVA-3D-Pretrain/matterport3d/JmbYfDe2QKZ/matterport_color_images/333115d876ef49909460d9c3e1a4e0e9_i1_5.jpg",
+        "/mnt/petrelfs/linjingli/mmscan_modelzoo-main/llmzoo/LLaVA-3D-Beta/playground/data/LLaVA-3D-Pretrain/matterport3d/JmbYfDe2QKZ/matterport_color_images/333115d876ef49909460d9c3e1a4e0e9_i2_5.jpg",
+        "/mnt/petrelfs/linjingli/mmscan_modelzoo-main/llmzoo/LLaVA-3D-Beta/playground/data/LLaVA-3D-Pretrain/matterport3d/JmbYfDe2QKZ/matterport_color_images/f5cf1375de4d46b38328dda8ebcd6ce0_i1_5.jpg"
+    ],
+    "agent_pos": [
+        [
+            -0.46,
+            -0.47
+        ],
+        [
+            -0.19,
+            0.79
+        ],
+        [
+            -0.18,
+            0.79
+        ],
+        [
+            -1.41,
+            1.27
+        ]
+    ],
+    "agent_front": [
+        [
+            0.33,
+            -0.67
+        ],
+        [
+            0.74,
+            -0.67
+        ],
+        [
+            0.55,
+            -0.5
+        ],
+        [
+            0.91,
+            -0.42
+        ]
+    ],
+    "candidate_": [
+        {
+            "question": "In which turn were you farthest from \"the light\"? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "light_33": "the light"
+            },
+            "trans_question": "基于历史信息，[灯光 <light_33>]在哪一轮离你最远？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the light<light_33>"
+            },
+            "chinese_info": {
+                "<1>": "[灯光 <light_33>]"
+            }
+        },
+        {
+            "question": "In which turn were you farthest from \"the pillow\"? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "pillow_14": "the pillow"
+            },
+            "trans_question": "基于历史信息，[枕头 <pillow_14>]在哪一轮离你最远？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the pillow<pillow_14>"
+            },
+            "chinese_info": {
+                "<1>": "[枕头 <pillow_14>]"
+            }
+        },
+        {
+            "question": "In which turn were you farthest from \"the bed\"? ",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "bed_6": "the bed"
+            },
+            "trans_question": "基于历史信息，[床 <bed_6>]在哪一轮离你最远？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the bed<bed_6>"
+            },
+            "chinese_info": {
+                "<1>": "[床 <bed_6>]"
+            }
+        }
+    ],
+    "shuffle_order": [
+        2,
+        1,
+        0
+    ],
+    "index": 0
+}

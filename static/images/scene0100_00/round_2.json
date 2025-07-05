@@ -1,0 +1,105 @@
+{
+    "turn_id": 2,
+    "type": "A_object-diversity(option)",
+    "image_paths": [
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00160.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00200.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00240.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00280.jpg"
+    ],
+    "agent_pos": [
+        [
+            0.32,
+            -0.64
+        ],
+        [
+            0.42,
+            -0.57
+        ],
+        [
+            0.5,
+            -0.52
+        ],
+        [
+            0.42,
+            -0.48
+        ]
+    ],
+    "agent_front": [
+        [
+            -0.43,
+            0.82
+        ],
+        [
+            -0.12,
+            0.87
+        ],
+        [
+            0.09,
+            0.86
+        ],
+        [
+            -0.01,
+            0.82
+        ]
+    ],
+    "candidate_": [
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the mirror\"; \"the creamy white oval porcelain toilet with a smooth surface\"; \"the cylindrical white plastic bin\" ",
+            "answer": "the mirror",
+            "option": [
+                "the mirror",
+                "the creamy white oval porcelain toilet with a smooth surface",
+                "the cylindrical white plastic bin"
+            ],
+            "info": {
+                "toilet_7": "the creamy white oval porcelain toilet with a smooth surface",
+                "bin_11": "the cylindrical white plastic bin",
+                "mirror_17": "the mirror"
+            },
+            "trans_question": "[镜子 <mirror_17>]、[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]、[圆柱形的白色塑料桶 <bin_11>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[镜子 <mirror_17>]是本轮新发现的。",
+            "trans_info": {
+                "<2>": "the creamy white oval porcelain toilet with a smooth surface<toilet_7>",
+                "<3>": "the cylindrical white plastic bin<bin_11>",
+                "<1>": "the mirror<mirror_17>"
+            },
+            "chinese_info": {
+                "<2>": "[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]",
+                "<3>": "[圆柱形的白色塑料桶 <bin_11>]",
+                "<1>": "[镜子 <mirror_17>]"
+            }
+        },
+        {
+            "question": "Among these three objects, which one was newly discovered in this turn(had not appeared before)? \"the creamy white oval porcelain toilet with a smooth surface\"; \"the window\"; \"the cylindrical white plastic bin\" ",
+            "answer": "the window",
+            "option": [
+                "the creamy white oval porcelain toilet with a smooth surface",
+                "the window",
+                "the cylindrical white plastic bin"
+            ],
+            "info": {
+                "toilet_7": "the creamy white oval porcelain toilet with a smooth surface",
+                "bin_11": "the cylindrical white plastic bin",
+                "window_19": "the window"
+            },
+            "trans_question": "[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]、[窗户 <window_19>]、[圆柱形的白色塑料桶 <bin_11>]这三个物体中，哪个物体是本轮新发现的(之前的轮次没有出现过)？",
+            "trans_answer": "[窗户 <window_19>]是本轮新发现的。",
+            "trans_info": {
+                "<1>": "the creamy white oval porcelain toilet with a smooth surface<toilet_7>",
+                "<3>": "the cylindrical white plastic bin<bin_11>",
+                "<2>": "the window<window_19>"
+            },
+            "chinese_info": {
+                "<1>": "[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]",
+                "<3>": "[圆柱形的白色塑料桶 <bin_11>]",
+                "<2>": "[窗户 <window_19>]"
+            }
+        }
+    ],
+    "shuffle_order": [
+        1,
+        0
+    ],
+    "index": 0
+}

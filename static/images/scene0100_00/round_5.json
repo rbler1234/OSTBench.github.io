@@ -1,0 +1,153 @@
+{
+    "turn_id": 5,
+    "type": "A_object-existence(int1)",
+    "image_paths": [
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00640.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00680.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00720.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00760.jpg"
+    ],
+    "agent_pos": [
+        [
+            -0.4,
+            0.27
+        ],
+        [
+            -0.4,
+            0.2
+        ],
+        [
+            -0.43,
+            0.28
+        ],
+        [
+            -0.43,
+            0.32
+        ]
+    ],
+    "agent_front": [
+        [
+            0.77,
+            -0.53
+        ],
+        [
+            0.59,
+            -0.67
+        ],
+        [
+            0.7,
+            -0.31
+        ],
+        [
+            0.74,
+            -0.09
+        ]
+    ],
+    "candidate_": [
+        {
+            "question": "When did you first discover \"the bathtub\"? (index of the turn)",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "bathtub_8": "the bathtub"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮第一次发现[浴缸 <bathtub_8>]？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the bathtub<bathtub_8>"
+            },
+            "chinese_info": {
+                "<1>": "[浴缸 <bathtub_8>]"
+            }
+        },
+        {
+            "question": "When did you first discover \"the mirror\"? (index of the turn)",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "mirror_17": "the mirror"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮第一次发现[镜子 <mirror_17>]？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the mirror<mirror_17>"
+            },
+            "chinese_info": {
+                "<1>": "[镜子 <mirror_17>]"
+            }
+        },
+        {
+            "question": "When did you first discover \"the medium white roll of toilet paper\"? (index of the turn)",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "toilet paper_12": "the medium white roll of toilet paper"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮第一次发现[中号白色的卷筒厕纸 <toilet paper_12>]？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the medium white roll of toilet paper<toilet paper_12>"
+            },
+            "chinese_info": {
+                "<1>": "[中号白色的卷筒厕纸 <toilet paper_12>]"
+            }
+        },
+        {
+            "question": "When did you first discover \"the creamy white oval porcelain toilet with a smooth surface\"? (index of the turn)",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "toilet_7": "the creamy white oval porcelain toilet with a smooth surface"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮第一次发现[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the creamy white oval porcelain toilet with a smooth surface<toilet_7>"
+            },
+            "chinese_info": {
+                "<1>": "[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]"
+            }
+        },
+        {
+            "question": "When did you first discover \"the cylindrical white plastic bin\"? (index of the turn)",
+            "answer": 1,
+            "option": [],
+            "info": {
+                "bin_11": "the cylindrical white plastic bin"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮第一次发现[圆柱形的白色塑料桶 <bin_11>]？",
+            "trans_answer": 1,
+            "trans_info": {
+                "<1>": "the cylindrical white plastic bin<bin_11>"
+            },
+            "chinese_info": {
+                "<1>": "[圆柱形的白色塑料桶 <bin_11>]"
+            }
+        },
+        {
+            "question": "When did you first discover \"the window\"? (index of the turn)",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "window_19": "the window"
+            },
+            "trans_question": "基于历史信息，请问你在哪一轮第一次发现[窗户 <window_19>]？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the window<window_19>"
+            },
+            "chinese_info": {
+                "<1>": "[窗户 <window_19>]"
+            }
+        }
+    ],
+    "shuffle_order": [
+        1,
+        4,
+        3,
+        0,
+        2,
+        5
+    ],
+    "index": 0
+}

@@ -1,0 +1,179 @@
+{
+    "turn_id": 4,
+    "type": "AO_direction(float)",
+    "image_paths": [
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00600.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00640.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00680.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00720.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00760.jpg"
+    ],
+    "agent_pos": [
+        [
+            0.09,
+            -0.72
+        ],
+        [
+            0.07,
+            -0.74
+        ],
+        [
+            0.1,
+            -0.87
+        ],
+        [
+            0.62,
+            -1.33
+        ],
+        [
+            0.9,
+            -1.53
+        ]
+    ],
+    "agent_front": [
+        [
+            0.08,
+            -0.92
+        ],
+        [
+            -0.12,
+            -0.87
+        ],
+        [
+            -0.17,
+            -0.8
+        ],
+        [
+            -0.32,
+            -0.69
+        ],
+        [
+            -0.71,
+            -0.36
+        ]
+    ],
+    "candidate_": [
+        {
+            "question": "Based on your current orientation, in what clockwise direction (in degrees) is \"the bag\" from your position?",
+            "answer": 128.56,
+            "option": [],
+            "info": {
+                "bag_24": "the bag"
+            },
+            "trans_question": "基于你当前的朝向，请问[袋子 <bag_24>]在你的顺时针多少度方向？",
+            "trans_answer": 128.56,
+            "trans_info": {
+                "<1>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "Based on your current orientation, in what clockwise direction (in degrees) is \"the medium-sized white cylindrical lamp made of plastic\" from your position?",
+            "answer": 105.55,
+            "option": [],
+            "info": {
+                "lamp_7": "the medium-sized white cylindrical lamp made of plastic"
+            },
+            "trans_question": "基于你当前的朝向，请问[中号白色塑料圆柱灯 <lamp_7>]在你的顺时针多少度方向？",
+            "trans_answer": 105.55,
+            "trans_info": {
+                "<1>": "the medium-sized white cylindrical lamp made of plastic<lamp_7>"
+            },
+            "chinese_info": {
+                "<1>": "[中号白色塑料圆柱灯 <lamp_7>]"
+            }
+        },
+        {
+            "question": "Based on your current orientation, in what clockwise direction (in degrees) is \"the plain gray vertical printer made of plastic\" from your position?",
+            "answer": 131.11,
+            "option": [],
+            "info": {
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "基于你当前的朝向，请问[由塑料制成的灰色竖立的打印机 <printer_14>]在你的顺时针多少度方向？",
+            "trans_answer": 131.11,
+            "trans_info": {
+                "<1>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "Based on your current orientation, in what clockwise direction (in degrees) is \"the medium-sized brown leather couch\" from your position?",
+            "answer": 63.77,
+            "option": [],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch"
+            },
+            "trans_question": "基于你当前的朝向，请问[中等尺寸的棕色皮沙发 <couch_12>]在你的顺时针多少度方向？",
+            "trans_answer": 63.77,
+            "trans_info": {
+                "<1>": "the medium-sized brown leather couch<couch_12>"
+            },
+            "chinese_info": {
+                "<1>": "[中等尺寸的棕色皮沙发 <couch_12>]"
+            }
+        },
+        {
+            "question": "Based on your current orientation, in what clockwise direction (in degrees) is \"the rectangular, creamy textured pillow made of cotton\" from your position?",
+            "answer": 74.46,
+            "option": [],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton"
+            },
+            "trans_question": "基于你当前的朝向，请问[棉制的长方形奶油色纹理枕头 <pillow_40>]在你的顺时针多少度方向？",
+            "trans_answer": 74.46,
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]"
+            }
+        },
+        {
+            "question": "Based on your current orientation, in what clockwise direction (in degrees) is \"the rectangular light gray wooden desk\" from your position?",
+            "answer": 117.9,
+            "option": [],
+            "info": {
+                "desk_5": "the rectangular light gray wooden desk"
+            },
+            "trans_question": "基于你当前的朝向，请问[浅灰色矩形木质桌子 <desk_5>]在你的顺时针多少度方向？",
+            "trans_answer": 117.9,
+            "trans_info": {
+                "<1>": "the rectangular light gray wooden desk<desk_5>"
+            },
+            "chinese_info": {
+                "<1>": "[浅灰色矩形木质桌子 <desk_5>]"
+            }
+        },
+        {
+            "question": "Based on your current orientation, in what clockwise direction (in degrees) is \"the cylindrical teal-handled cup with a white interior\" from your position?",
+            "answer": 128.26,
+            "option": [],
+            "info": {
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "基于你当前的朝向，请问[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]在你的顺时针多少度方向？",
+            "trans_answer": 128.26,
+            "trans_info": {
+                "<1>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        }
+    ],
+    "shuffle_order": [
+        1,
+        0,
+        5,
+        4,
+        3,
+        2,
+        6
+    ],
+    "index": 0
+}

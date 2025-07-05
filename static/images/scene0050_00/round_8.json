@@ -1,0 +1,180 @@
+{
+    "turn_id": 8,
+    "type": "AO_direction(option1)",
+    "image_paths": [
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01400.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01440.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01480.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01520.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01560.jpg"
+    ],
+    "agent_pos": [
+        [
+            -1.54,
+            -1.0
+        ],
+        [
+            -1.54,
+            -0.89
+        ],
+        [
+            -1.52,
+            -0.82
+        ],
+        [
+            -1.42,
+            -1.0
+        ],
+        [
+            -1.2,
+            -1.0
+        ]
+    ],
+    "agent_front": [
+        [
+            0.15,
+            -0.51
+        ],
+        [
+            0.14,
+            -0.58
+        ],
+        [
+            0.24,
+            -0.58
+        ],
+        [
+            0.37,
+            -0.52
+        ],
+        [
+            0.56,
+            -0.01
+        ]
+    ],
+    "candidate_": [
+        {
+            "question": "Is the cylindrical teal-handled cup with a white interior to your left/right now?",
+            "answer": "left",
+            "option": [
+                "left",
+                "right"
+            ],
+            "info": {
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "请问对于你目前来说，[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]在你的左边还是右边？",
+            "trans_answer": "在左边",
+            "trans_info": {
+                "<1>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "Is the plain gray vertical printer made of plastic to your left/right now?",
+            "answer": "left",
+            "option": [
+                "left",
+                "right"
+            ],
+            "info": {
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "请问对于你目前来说，[由塑料制成的灰色竖立的打印机 <printer_14>]在你的左边还是右边？",
+            "trans_answer": "在左边",
+            "trans_info": {
+                "<1>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "Is the bag to your left/right now?",
+            "answer": "left",
+            "option": [
+                "left",
+                "right"
+            ],
+            "info": {
+                "bag_24": "the bag"
+            },
+            "trans_question": "请问对于你目前来说，[袋子 <bag_24>]在你的左边还是右边？",
+            "trans_answer": "在左边",
+            "trans_info": {
+                "<1>": "the bag<bag_24>"
+            },
+            "chinese_info": {
+                "<1>": "[袋子 <bag_24>]"
+            }
+        },
+        {
+            "question": "Is the rectangular light gray wooden desk to your left/right now?",
+            "answer": "left",
+            "option": [
+                "left",
+                "right"
+            ],
+            "info": {
+                "desk_5": "the rectangular light gray wooden desk"
+            },
+            "trans_question": "请问对于你目前来说，[浅灰色矩形木质桌子 <desk_5>]在你的左边还是右边？",
+            "trans_answer": "在左边",
+            "trans_info": {
+                "<1>": "the rectangular light gray wooden desk<desk_5>"
+            },
+            "chinese_info": {
+                "<1>": "[浅灰色矩形木质桌子 <desk_5>]"
+            }
+        },
+        {
+            "question": "Is the rectangular, creamy textured pillow made of cotton to your left/right now?",
+            "answer": "left",
+            "option": [
+                "left",
+                "right"
+            ],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton"
+            },
+            "trans_question": "请问对于你目前来说，[棉制的长方形奶油色纹理枕头 <pillow_40>]在你的左边还是右边？",
+            "trans_answer": "在左边",
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]"
+            }
+        },
+        {
+            "question": "Is the medium-sized white cylindrical lamp made of plastic to your left/right now?",
+            "answer": "left",
+            "option": [
+                "left",
+                "right"
+            ],
+            "info": {
+                "lamp_7": "the medium-sized white cylindrical lamp made of plastic"
+            },
+            "trans_question": "请问对于你目前来说，[中号白色塑料圆柱灯 <lamp_7>]在你的左边还是右边？",
+            "trans_answer": "在左边",
+            "trans_info": {
+                "<1>": "the medium-sized white cylindrical lamp made of plastic<lamp_7>"
+            },
+            "chinese_info": {
+                "<1>": "[中号白色塑料圆柱灯 <lamp_7>]"
+            }
+        }
+    ],
+    "shuffle_order": [
+        5,
+        1,
+        2,
+        3,
+        4,
+        0
+    ],
+    "index": 0
+}

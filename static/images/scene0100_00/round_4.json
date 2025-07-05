@@ -1,0 +1,117 @@
+{
+    "turn_id": 4,
+    "type": "AO_direction(option2)",
+    "image_paths": [
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00480.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00520.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00560.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00600.jpg"
+    ],
+    "agent_pos": [
+        [
+            -0.27,
+            -0.02
+        ],
+        [
+            -0.05,
+            0.04
+        ],
+        [
+            -0.17,
+            0.17
+        ],
+        [
+            -0.33,
+            0.2
+        ]
+    ],
+    "agent_front": [
+        [
+            -0.25,
+            -0.82
+        ],
+        [
+            -0.01,
+            -0.78
+        ],
+        [
+            0.39,
+            -0.67
+        ],
+        [
+            0.71,
+            -0.54
+        ]
+    ],
+    "candidate_": [
+        {
+            "question": "Which direction is the cylindrical white plastic bin in relative to you now: front left, front right, rear left, or rear right?",
+            "answer": "rear-right",
+            "option": [
+                "front-right",
+                "rear-right",
+                "rear-left",
+                "front-left"
+            ],
+            "info": {
+                "bin_11": "the cylindrical white plastic bin"
+            },
+            "trans_question": "请问对于你目前来说，[圆柱形的白色塑料桶 <bin_11>]在你的什么方位：左前方，右前方，左后方还是右后方呢？",
+            "trans_answer": "右后方",
+            "trans_info": {
+                "<1>": "the cylindrical white plastic bin<bin_11>"
+            },
+            "chinese_info": {
+                "<1>": "[圆柱形的白色塑料桶 <bin_11>]"
+            }
+        },
+        {
+            "question": "Which direction is the creamy white oval porcelain toilet with a smooth surface in relative to you now: front left, front right, rear left, or rear right?",
+            "answer": "rear-right",
+            "option": [
+                "front-right",
+                "rear-right",
+                "rear-left",
+                "front-left"
+            ],
+            "info": {
+                "toilet_7": "the creamy white oval porcelain toilet with a smooth surface"
+            },
+            "trans_question": "请问对于你目前来说，[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]在你的什么方位：左前方，右前方，左后方还是右后方呢？",
+            "trans_answer": "右后方",
+            "trans_info": {
+                "<1>": "the creamy white oval porcelain toilet with a smooth surface<toilet_7>"
+            },
+            "chinese_info": {
+                "<1>": "[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]"
+            }
+        },
+        {
+            "question": "Which direction is the medium white roll of toilet paper in relative to you now: front left, front right, rear left, or rear right?",
+            "answer": "rear-right",
+            "option": [
+                "front-right",
+                "rear-right",
+                "rear-left",
+                "front-left"
+            ],
+            "info": {
+                "toilet paper_12": "the medium white roll of toilet paper"
+            },
+            "trans_question": "请问对于你目前来说，[中号白色的卷筒厕纸 <toilet paper_12>]在你的什么方位：左前方，右前方，左后方还是右后方呢？",
+            "trans_answer": "右后方",
+            "trans_info": {
+                "<1>": "the medium white roll of toilet paper<toilet paper_12>"
+            },
+            "chinese_info": {
+                "<1>": "[中号白色的卷筒厕纸 <toilet paper_12>]"
+            }
+        }
+    ],
+    "shuffle_order": [
+        2,
+        1,
+        0
+    ],
+    "index": 0
+}

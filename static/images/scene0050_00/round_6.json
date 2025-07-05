@@ -1,0 +1,148 @@
+{
+    "turn_id": 6,
+    "type": "AO_direction(option2)",
+    "image_paths": [
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01000.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01040.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01080.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01120.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01160.jpg"
+    ],
+    "agent_pos": [
+        [
+            -0.32,
+            -1.15
+        ],
+        [
+            -0.7,
+            -1.39
+        ],
+        [
+            -1.19,
+            -1.26
+        ],
+        [
+            -1.51,
+            -1.18
+        ],
+        [
+            -1.55,
+            -1.44
+        ]
+    ],
+    "agent_front": [
+        [
+            -0.45,
+            -0.71
+        ],
+        [
+            -0.11,
+            -0.75
+        ],
+        [
+            0.14,
+            -0.77
+        ],
+        [
+            0.11,
+            -0.79
+        ],
+        [
+            0.47,
+            -0.75
+        ]
+    ],
+    "candidate_": [
+        {
+            "question": "Which direction is the rectangular, creamy textured pillow made of cotton in relative to you now: front left, front right, rear left, or rear right?",
+            "answer": "rear-left",
+            "option": [
+                "front-right",
+                "rear-right",
+                "rear-left",
+                "front-left"
+            ],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton"
+            },
+            "trans_question": "请问对于你目前来说，[棉制的长方形奶油色纹理枕头 <pillow_40>]在你的什么方位：左前方，右前方，左后方还是右后方呢？",
+            "trans_answer": "左后方",
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]"
+            }
+        },
+        {
+            "question": "Which direction is the medium-sized brown leather couch in relative to you now: front left, front right, rear left, or rear right?",
+            "answer": "rear-left",
+            "option": [
+                "front-right",
+                "rear-right",
+                "rear-left",
+                "front-left"
+            ],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch"
+            },
+            "trans_question": "请问对于你目前来说，[中等尺寸的棕色皮沙发 <couch_12>]在你的什么方位：左前方，右前方，左后方还是右后方呢？",
+            "trans_answer": "左后方",
+            "trans_info": {
+                "<1>": "the medium-sized brown leather couch<couch_12>"
+            },
+            "chinese_info": {
+                "<1>": "[中等尺寸的棕色皮沙发 <couch_12>]"
+            }
+        },
+        {
+            "question": "Which direction is the medium-sized white cylindrical lamp made of plastic in relative to you now: front left, front right, rear left, or rear right?",
+            "answer": "rear-left",
+            "option": [
+                "front-right",
+                "rear-right",
+                "rear-left",
+                "front-left"
+            ],
+            "info": {
+                "lamp_7": "the medium-sized white cylindrical lamp made of plastic"
+            },
+            "trans_question": "请问对于你目前来说，[中号白色塑料圆柱灯 <lamp_7>]在你的什么方位：左前方，右前方，左后方还是右后方呢？",
+            "trans_answer": "左后方",
+            "trans_info": {
+                "<1>": "the medium-sized white cylindrical lamp made of plastic<lamp_7>"
+            },
+            "chinese_info": {
+                "<1>": "[中号白色塑料圆柱灯 <lamp_7>]"
+            }
+        },
+        {
+            "question": "Which direction is the rectangular light gray wooden desk in relative to you now: front left, front right, rear left, or rear right?",
+            "answer": "rear-left",
+            "option": [
+                "front-right",
+                "rear-right",
+                "rear-left",
+                "front-left"
+            ],
+            "info": {
+                "desk_5": "the rectangular light gray wooden desk"
+            },
+            "trans_question": "请问对于你目前来说，[浅灰色矩形木质桌子 <desk_5>]在你的什么方位：左前方，右前方，左后方还是右后方呢？",
+            "trans_answer": "左后方",
+            "trans_info": {
+                "<1>": "the rectangular light gray wooden desk<desk_5>"
+            },
+            "chinese_info": {
+                "<1>": "[浅灰色矩形木质桌子 <desk_5>]"
+            }
+        }
+    ],
+    "shuffle_order": [
+        2,
+        3,
+        0,
+        1
+    ],
+    "index": 0
+}

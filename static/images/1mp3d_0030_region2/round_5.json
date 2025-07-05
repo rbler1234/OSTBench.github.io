@@ -1,0 +1,1911 @@
+{
+    "turn_id": 5,
+    "type": "A_object-order(option)",
+    "image_paths": [
+        "/mnt/petrelfs/linjingli/mmscan_modelzoo-main/llmzoo/LLaVA-3D-Beta/playground/data/LLaVA-3D-Pretrain/matterport3d/JmbYfDe2QKZ/matterport_color_images/333115d876ef49909460d9c3e1a4e0e9_i1_2.jpg",
+        "/mnt/petrelfs/linjingli/mmscan_modelzoo-main/llmzoo/LLaVA-3D-Beta/playground/data/LLaVA-3D-Pretrain/matterport3d/JmbYfDe2QKZ/matterport_color_images/333115d876ef49909460d9c3e1a4e0e9_i2_2.jpg",
+        "/mnt/petrelfs/linjingli/mmscan_modelzoo-main/llmzoo/LLaVA-3D-Beta/playground/data/LLaVA-3D-Pretrain/matterport3d/JmbYfDe2QKZ/matterport_color_images/8310b328af0a4096be09f78e30f2c53e_i1_2.jpg",
+        "/mnt/petrelfs/linjingli/mmscan_modelzoo-main/llmzoo/LLaVA-3D-Beta/playground/data/LLaVA-3D-Pretrain/matterport3d/JmbYfDe2QKZ/matterport_color_images/8310b328af0a4096be09f78e30f2c53e_i2_2.jpg"
+    ],
+    "agent_pos": [
+        [
+            -0.19,
+            0.8
+        ],
+        [
+            -0.2,
+            0.81
+        ],
+        [
+            -0.47,
+            -0.45
+        ],
+        [
+            -0.46,
+            -0.44
+        ]
+    ],
+    "agent_front": [
+        [
+            -0.74,
+            0.67
+        ],
+        [
+            -0.55,
+            0.51
+        ],
+        [
+            0.56,
+            0.83
+        ],
+        [
+            0.43,
+            0.62
+        ]
+    ],
+    "candidate_": [
+        {
+            "question": "What will be the first-time appearance order of the following categories: door, wardrobe, pillow ? ",
+            "answer": "pillow, wardrobe, door",
+            "option": [
+                "wardrobe, pillow, door",
+                "pillow, wardrobe, door",
+                "pillow, door, wardrobe",
+                "door, pillow, wardrobe"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "枕头，衣柜，门",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: picture, mirror, wardrobe ? ",
+            "answer": "picture, wardrobe, mirror",
+            "option": [
+                "wardrobe, picture, mirror",
+                "picture, wardrobe, mirror",
+                "picture, mirror, wardrobe",
+                "wardrobe, mirror, picture"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "图片，衣柜，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: dresser, stand, wardrobe ? ",
+            "answer": "stand, wardrobe, dresser",
+            "option": [
+                "dresser, wardrobe, stand",
+                "stand, wardrobe, dresser",
+                "dresser, stand, wardrobe",
+                "stand, dresser, wardrobe"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "床头柜，衣柜，梳妆台",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: wardrobe, picture, dresser ? ",
+            "answer": "picture, wardrobe, dresser",
+            "option": [
+                "wardrobe, picture, dresser",
+                "picture, dresser, wardrobe",
+                "picture, wardrobe, dresser",
+                "wardrobe, dresser, picture"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "图片，衣柜，梳妆台",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: pillow, mirror, light ? ",
+            "answer": "pillow, light, mirror",
+            "option": [
+                "mirror, pillow, light",
+                "pillow, light, mirror",
+                "pillow, mirror, light",
+                "light, mirror, pillow"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "枕头，灯，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: door, light, mirror ? ",
+            "answer": "light, door, mirror",
+            "option": [
+                "mirror, light, door",
+                "door, mirror, light",
+                "door, light, mirror",
+                "light, door, mirror"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "灯，门，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: light, bed, door ? ",
+            "answer": "bed, light, door",
+            "option": [
+                "door, light, bed",
+                "bed, light, door",
+                "door, bed, light",
+                "light, door, bed"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "床，灯，门",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: lamp, light, mirror ? ",
+            "answer": "lamp, light, mirror",
+            "option": [
+                "light, lamp, mirror",
+                "lamp, mirror, light",
+                "lamp, light, mirror",
+                "mirror, lamp, light"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "灯，灯，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: mirror, door, chair ? ",
+            "answer": "chair, door, mirror",
+            "option": [
+                "mirror, door, chair",
+                "chair, door, mirror",
+                "door, mirror, chair",
+                "chair, mirror, door"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "椅子，门，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: stand, door, mirror ? ",
+            "answer": "stand, door, mirror",
+            "option": [
+                "stand, door, mirror",
+                "door, mirror, stand",
+                "door, stand, mirror",
+                "stand, mirror, door"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "床头柜，门，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: light, chair, door ? ",
+            "answer": "chair, light, door",
+            "option": [
+                "chair, door, light",
+                "light, door, chair",
+                "chair, light, door",
+                "door, chair, light"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "椅子，灯，门",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: mirror, bed, wardrobe ? ",
+            "answer": "bed, wardrobe, mirror",
+            "option": [
+                "wardrobe, bed, mirror",
+                "mirror, wardrobe, bed",
+                "bed, mirror, wardrobe",
+                "bed, wardrobe, mirror"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "床，衣柜，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: dresser, bed, wardrobe ? ",
+            "answer": "bed, wardrobe, dresser",
+            "option": [
+                "dresser, wardrobe, bed",
+                "bed, wardrobe, dresser",
+                "bed, dresser, wardrobe",
+                "wardrobe, bed, dresser"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "床，衣柜，梳妆台",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: chair, dresser, light ? ",
+            "answer": "chair, light, dresser",
+            "option": [
+                "chair, light, dresser",
+                "dresser, chair, light",
+                "chair, dresser, light",
+                "dresser, light, chair"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "椅子，灯，梳妆台",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: door, pillow, mirror ? ",
+            "answer": "pillow, door, mirror",
+            "option": [
+                "door, pillow, mirror",
+                "mirror, door, pillow",
+                "door, mirror, pillow",
+                "pillow, door, mirror"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "枕头，门，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: picture, light, mirror ? ",
+            "answer": "picture, light, mirror",
+            "option": [
+                "mirror, picture, light",
+                "light, mirror, picture",
+                "picture, light, mirror",
+                "picture, mirror, light"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "图片，灯，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: wardrobe, chair, dresser ? ",
+            "answer": "chair, wardrobe, dresser",
+            "option": [
+                "chair, wardrobe, dresser",
+                "wardrobe, chair, dresser",
+                "wardrobe, dresser, chair",
+                "dresser, chair, wardrobe"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "椅子，衣柜，梳妆台",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: window, wardrobe, door ? ",
+            "answer": "window, wardrobe, door",
+            "option": [
+                "wardrobe, window, door",
+                "window, wardrobe, door",
+                "door, window, wardrobe",
+                "door, wardrobe, window"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "窗户，衣柜，门",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: mirror, bed, door ? ",
+            "answer": "bed, door, mirror",
+            "option": [
+                "bed, mirror, door",
+                "door, bed, mirror",
+                "mirror, bed, door",
+                "bed, door, mirror"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "床，门，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: mirror, dresser, bed ? ",
+            "answer": "bed, dresser, mirror",
+            "option": [
+                "bed, dresser, mirror",
+                "dresser, bed, mirror",
+                "dresser, mirror, bed",
+                "mirror, dresser, bed"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "床，梳妆台，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: door, pillow, light ? ",
+            "answer": "pillow, light, door",
+            "option": [
+                "pillow, light, door",
+                "light, door, pillow",
+                "pillow, door, light",
+                "light, pillow, door"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "枕头，灯，门",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: dresser, light, mirror ? ",
+            "answer": "light, dresser, mirror",
+            "option": [
+                "dresser, mirror, light",
+                "light, dresser, mirror",
+                "light, mirror, dresser",
+                "dresser, light, mirror"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "灯，梳妆台，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: mirror, door, window ? ",
+            "answer": "window, door, mirror",
+            "option": [
+                "window, door, mirror",
+                "door, window, mirror",
+                "door, mirror, window",
+                "mirror, door, window"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "窗户，门，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: dresser, bed, light ? ",
+            "answer": "bed, light, dresser",
+            "option": [
+                "light, bed, dresser",
+                "dresser, bed, light",
+                "bed, dresser, light",
+                "bed, light, dresser"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "床，灯，梳妆台",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: chair, door, wardrobe ? ",
+            "answer": "chair, wardrobe, door",
+            "option": [
+                "door, chair, wardrobe",
+                "door, wardrobe, chair",
+                "chair, door, wardrobe",
+                "chair, wardrobe, door"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "椅子，衣柜，门",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: window, light, door ? ",
+            "answer": "window, light, door",
+            "option": [
+                "door, window, light",
+                "door, light, window",
+                "window, light, door",
+                "light, door, window"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "窗户，灯，门",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: dresser, mirror, pillow ? ",
+            "answer": "pillow, dresser, mirror",
+            "option": [
+                "pillow, mirror, dresser",
+                "dresser, pillow, mirror",
+                "pillow, dresser, mirror",
+                "mirror, dresser, pillow"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "枕头，梳妆台，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: dresser, mirror, chair ? ",
+            "answer": "chair, dresser, mirror",
+            "option": [
+                "mirror, chair, dresser",
+                "mirror, dresser, chair",
+                "chair, dresser, mirror",
+                "dresser, mirror, chair"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "椅子，梳妆台，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: dresser, wardrobe, mirror ? ",
+            "answer": "wardrobe, dresser, mirror",
+            "option": [
+                "mirror, wardrobe, dresser",
+                "dresser, mirror, wardrobe",
+                "dresser, wardrobe, mirror",
+                "wardrobe, dresser, mirror"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "衣柜，梳妆台，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: mirror, lamp, wardrobe ? ",
+            "answer": "lamp, wardrobe, mirror",
+            "option": [
+                "lamp, mirror, wardrobe",
+                "lamp, wardrobe, mirror",
+                "wardrobe, lamp, mirror",
+                "mirror, lamp, wardrobe"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "灯，衣柜，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: door, light, stand ? ",
+            "answer": "stand, light, door",
+            "option": [
+                "light, stand, door",
+                "door, stand, light",
+                "stand, door, light",
+                "stand, light, door"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "床头柜，灯，门",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: bed, wardrobe, door ? ",
+            "answer": "bed, wardrobe, door",
+            "option": [
+                "bed, door, wardrobe",
+                "bed, wardrobe, door",
+                "wardrobe, door, bed",
+                "wardrobe, bed, door"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "床，衣柜，门",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: mirror, light, window ? ",
+            "answer": "window, light, mirror",
+            "option": [
+                "light, window, mirror",
+                "window, light, mirror",
+                "window, mirror, light",
+                "light, mirror, window"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "窗户，灯，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: wardrobe, window, mirror ? ",
+            "answer": "window, wardrobe, mirror",
+            "option": [
+                "window, wardrobe, mirror",
+                "wardrobe, window, mirror",
+                "mirror, wardrobe, window",
+                "wardrobe, mirror, window"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "窗户，衣柜，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: light, bed, mirror ? ",
+            "answer": "bed, light, mirror",
+            "option": [
+                "mirror, bed, light",
+                "bed, light, mirror",
+                "bed, mirror, light",
+                "light, mirror, bed"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "床，灯，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: wardrobe, door, stand ? ",
+            "answer": "stand, wardrobe, door",
+            "option": [
+                "wardrobe, door, stand",
+                "door, stand, wardrobe",
+                "wardrobe, stand, door",
+                "stand, wardrobe, door"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "床头柜，衣柜，门",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: pillow, dresser, light ? ",
+            "answer": "pillow, light, dresser",
+            "option": [
+                "pillow, light, dresser",
+                "light, pillow, dresser",
+                "light, dresser, pillow",
+                "dresser, pillow, light"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "枕头，灯，梳妆台",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: wardrobe, pillow, mirror ? ",
+            "answer": "pillow, wardrobe, mirror",
+            "option": [
+                "mirror, wardrobe, pillow",
+                "wardrobe, pillow, mirror",
+                "pillow, wardrobe, mirror",
+                "pillow, mirror, wardrobe"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "枕头，衣柜，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: mirror, wardrobe, stand ? ",
+            "answer": "stand, wardrobe, mirror",
+            "option": [
+                "mirror, wardrobe, stand",
+                "wardrobe, stand, mirror",
+                "mirror, stand, wardrobe",
+                "stand, wardrobe, mirror"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "床头柜，衣柜，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: door, wardrobe, mirror ? ",
+            "answer": "wardrobe, door, mirror",
+            "option": [
+                "wardrobe, door, mirror",
+                "mirror, wardrobe, door",
+                "wardrobe, mirror, door",
+                "door, wardrobe, mirror"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "衣柜，门，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: lamp, dresser, wardrobe ? ",
+            "answer": "lamp, wardrobe, dresser",
+            "option": [
+                "lamp, dresser, wardrobe",
+                "dresser, wardrobe, lamp",
+                "dresser, lamp, wardrobe",
+                "lamp, wardrobe, dresser"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "灯，衣柜，梳妆台",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: chair, mirror, light ? ",
+            "answer": "chair, light, mirror",
+            "option": [
+                "chair, light, mirror",
+                "mirror, light, chair",
+                "light, mirror, chair",
+                "mirror, chair, light"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "椅子，灯，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: lamp, mirror, dresser ? ",
+            "answer": "lamp, dresser, mirror",
+            "option": [
+                "lamp, mirror, dresser",
+                "mirror, dresser, lamp",
+                "lamp, dresser, mirror",
+                "dresser, mirror, lamp"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "灯，梳妆台，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: picture, mirror, dresser ? ",
+            "answer": "picture, dresser, mirror",
+            "option": [
+                "picture, dresser, mirror",
+                "dresser, picture, mirror",
+                "picture, mirror, dresser",
+                "dresser, mirror, picture"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "图片，梳妆台，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: mirror, door, picture ? ",
+            "answer": "picture, door, mirror",
+            "option": [
+                "picture, mirror, door",
+                "picture, door, mirror",
+                "mirror, door, picture",
+                "door, picture, mirror"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "图片，门，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: pillow, wardrobe, dresser ? ",
+            "answer": "pillow, wardrobe, dresser",
+            "option": [
+                "wardrobe, pillow, dresser",
+                "wardrobe, dresser, pillow",
+                "pillow, wardrobe, dresser",
+                "pillow, dresser, wardrobe"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "枕头，衣柜，梳妆台",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: light, dresser, picture ? ",
+            "answer": "picture, light, dresser",
+            "option": [
+                "dresser, picture, light",
+                "picture, light, dresser",
+                "light, dresser, picture",
+                "picture, dresser, light"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "图片，灯，梳妆台",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: door, light, picture ? ",
+            "answer": "picture, light, door",
+            "option": [
+                "light, picture, door",
+                "door, picture, light",
+                "door, light, picture",
+                "picture, light, door"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "图片，灯，门",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: window, mirror, dresser ? ",
+            "answer": "window, dresser, mirror",
+            "option": [
+                "window, dresser, mirror",
+                "window, mirror, dresser",
+                "dresser, window, mirror",
+                "mirror, dresser, window"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "窗户，梳妆台，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: light, lamp, door ? ",
+            "answer": "lamp, light, door",
+            "option": [
+                "door, light, lamp",
+                "lamp, light, door",
+                "light, lamp, door",
+                "light, door, lamp"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "灯，灯，门",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: dresser, light, stand ? ",
+            "answer": "stand, light, dresser",
+            "option": [
+                "stand, dresser, light",
+                "stand, light, dresser",
+                "dresser, light, stand",
+                "dresser, stand, light"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "床头柜，灯，梳妆台",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: lamp, door, mirror ? ",
+            "answer": "lamp, door, mirror",
+            "option": [
+                "mirror, door, lamp",
+                "lamp, door, mirror",
+                "mirror, lamp, door",
+                "lamp, mirror, door"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "灯，门，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: wardrobe, lamp, door ? ",
+            "answer": "lamp, wardrobe, door",
+            "option": [
+                "door, wardrobe, lamp",
+                "lamp, door, wardrobe",
+                "lamp, wardrobe, door",
+                "wardrobe, lamp, door"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "灯，衣柜，门",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: door, wardrobe, picture ? ",
+            "answer": "picture, wardrobe, door",
+            "option": [
+                "door, picture, wardrobe",
+                "picture, wardrobe, door",
+                "picture, door, wardrobe",
+                "wardrobe, picture, door"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "图片，衣柜，门",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: wardrobe, chair, mirror ? ",
+            "answer": "chair, wardrobe, mirror",
+            "option": [
+                "chair, mirror, wardrobe",
+                "wardrobe, chair, mirror",
+                "chair, wardrobe, mirror",
+                "mirror, chair, wardrobe"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "椅子，衣柜，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: dresser, wardrobe, window ? ",
+            "answer": "window, wardrobe, dresser",
+            "option": [
+                "dresser, wardrobe, window",
+                "wardrobe, window, dresser",
+                "window, wardrobe, dresser",
+                "wardrobe, dresser, window"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "窗户，衣柜，梳妆台",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: light, dresser, window ? ",
+            "answer": "window, light, dresser",
+            "option": [
+                "window, dresser, light",
+                "dresser, window, light",
+                "light, window, dresser",
+                "window, light, dresser"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "窗户，灯，梳妆台",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: lamp, light, dresser ? ",
+            "answer": "lamp, light, dresser",
+            "option": [
+                "light, dresser, lamp",
+                "dresser, lamp, light",
+                "dresser, light, lamp",
+                "lamp, light, dresser"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "灯，灯，梳妆台",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: light, mirror, stand ? ",
+            "answer": "stand, light, mirror",
+            "option": [
+                "light, stand, mirror",
+                "stand, light, mirror",
+                "mirror, light, stand",
+                "stand, mirror, light"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "床头柜，灯，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "What will be the first-time appearance order of the following categories: mirror, dresser, stand ? ",
+            "answer": "stand, dresser, mirror",
+            "option": [
+                "dresser, mirror, stand",
+                "stand, dresser, mirror",
+                "dresser, stand, mirror",
+                "mirror, dresser, stand"
+            ],
+            "info": {
+                "pos_type": [
+                    "bed",
+                    "window",
+                    "stand",
+                    "picture",
+                    "pillow",
+                    "chair",
+                    "lamp",
+                    "wardrobe",
+                    "light",
+                    "door",
+                    "dresser",
+                    "mirror"
+                ]
+            },
+            "trans_question": "基于历史信息，这三个物体类型的出现顺序是什么？",
+            "trans_answer": "床头柜，梳妆台，镜子",
+            "trans_info": {},
+            "chinese_info": {}
+        }
+    ],
+    "shuffle_order": [
+        32,
+        26,
+        17,
+        25,
+        37,
+        58,
+        3,
+        53,
+        46,
+        22,
+        43,
+        2,
+        1,
+        44,
+        38,
+        29,
+        41,
+        8,
+        6,
+        7,
+        35,
+        59,
+        14,
+        4,
+        40,
+        11,
+        39,
+        47,
+        57,
+        50,
+        19,
+        0,
+        13,
+        10,
+        5,
+        16,
+        36,
+        34,
+        18,
+        56,
+        49,
+        45,
+        55,
+        31,
+        30,
+        33,
+        28,
+        27,
+        15,
+        51,
+        20,
+        54,
+        48,
+        24,
+        42,
+        9,
+        12,
+        52,
+        21,
+        23
+    ],
+    "index": 0
+}

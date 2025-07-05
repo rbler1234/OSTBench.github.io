@@ -1,0 +1,88 @@
+{
+    "turn_id": 3,
+    "type": "A_orientation(option)",
+    "image_paths": [
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00400.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00440.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00480.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00520.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00560.jpg"
+    ],
+    "agent_pos": [
+        [
+            0.22,
+            -0.48
+        ],
+        [
+            0.21,
+            -0.55
+        ],
+        [
+            0.2,
+            -0.69
+        ],
+        [
+            0.24,
+            -0.67
+        ],
+        [
+            0.16,
+            -0.69
+        ]
+    ],
+    "agent_front": [
+        [
+            0.88,
+            -0.01
+        ],
+        [
+            0.85,
+            -0.26
+        ],
+        [
+            0.74,
+            -0.51
+        ],
+        [
+            0.53,
+            -0.73
+        ],
+        [
+            0.26,
+            -0.88
+        ]
+    ],
+    "candidate_": [
+        {
+            "question": "Using your orientation at the end of turn 2 as a reference, has your current orientation rotated clockwise or counterclockwise by a certain angle (<180) relative to that orientation?",
+            "answer": "Clockwise",
+            "option": [
+                "Clockwise",
+                "Counterclockwise"
+            ],
+            "info": {},
+            "trans_question": "本轮没有问题",
+            "trans_answer": "",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "Using your orientation at the end of turn 1 as a reference, has your current orientation rotated clockwise or counterclockwise by a certain angle (<180) relative to that orientation?",
+            "answer": "Counterclockwise",
+            "option": [
+                "Clockwise",
+                "Counterclockwise"
+            ],
+            "info": {},
+            "trans_question": "本轮没有问题",
+            "trans_answer": "",
+            "trans_info": {},
+            "chinese_info": {}
+        }
+    ],
+    "shuffle_order": [
+        1,
+        0
+    ],
+    "index": 0
+}

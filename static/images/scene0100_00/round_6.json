@@ -1,0 +1,213 @@
+{
+    "turn_id": 6,
+    "type": "AO_direction(option3)",
+    "image_paths": [
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00800.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00840.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00880.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00920.jpg"
+    ],
+    "agent_pos": [
+        [
+            -0.23,
+            0.34
+        ],
+        [
+            0.03,
+            0.11
+        ],
+        [
+            0.05,
+            -0.11
+        ],
+        [
+            -0.1,
+            -0.14
+        ]
+    ],
+    "agent_front": [
+        [
+            0.86,
+            0.1
+        ],
+        [
+            0.82,
+            0.44
+        ],
+        [
+            0.27,
+            0.71
+        ],
+        [
+            -0.11,
+            0.83
+        ]
+    ],
+    "candidate_": [
+        {
+            "question": "Which two objects are on the same side of you now? \"the creamy white oval porcelain toilet with a smooth surface\", \"the cylindrical white plastic bin\", \"the sink\". ",
+            "answer": "the creamy white oval porcelain toilet with a smooth surface, the cylindrical white plastic bin",
+            "option": [
+                "the creamy white oval porcelain toilet with a smooth surface, the cylindrical white plastic bin",
+                "the creamy white oval porcelain toilet with a smooth surface, the sink",
+                "the cylindrical white plastic bin, the sink"
+            ],
+            "info": {
+                "toilet_7": "the creamy white oval porcelain toilet with a smooth surface",
+                "bin_11": "the cylindrical white plastic bin",
+                "sink_3": "the sink"
+            },
+            "trans_question": "请问对于你目前来说，[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]、[圆柱形的白色塑料桶 <bin_11>]、[水槽 <sink_3>]这三个物体中，哪两个在你的同侧？",
+            "trans_answer": "[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]和[圆柱形的白色塑料桶 <bin_11>]在同侧。",
+            "trans_info": {
+                "<1>": "the creamy white oval porcelain toilet with a smooth surface<toilet_7>",
+                "<2>": "the cylindrical white plastic bin<bin_11>",
+                "<3>": "the sink<sink_3>"
+            },
+            "chinese_info": {
+                "<1>": "[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]",
+                "<2>": "[圆柱形的白色塑料桶 <bin_11>]",
+                "<3>": "[水槽 <sink_3>]"
+            }
+        },
+        {
+            "question": "Which two objects are on the same side of you now? \"the bathtub\", \"the cylindrical white plastic bin\", \"the sink\". ",
+            "answer": "the bathtub, the cylindrical white plastic bin",
+            "option": [
+                "the bathtub, the cylindrical white plastic bin",
+                "the bathtub, the sink",
+                "the cylindrical white plastic bin, the sink"
+            ],
+            "info": {
+                "bathtub_8": "the bathtub",
+                "bin_11": "the cylindrical white plastic bin",
+                "sink_3": "the sink"
+            },
+            "trans_question": "请问对于你目前来说，[浴缸 <bathtub_8>]、[圆柱形的白色塑料桶 <bin_11>]、[水槽 <sink_3>]这三个物体中，哪两个在你的同侧？",
+            "trans_answer": "[浴缸 <bathtub_8>]和[圆柱形的白色塑料桶 <bin_11>]在同侧。",
+            "trans_info": {
+                "<1>": "the bathtub<bathtub_8>",
+                "<2>": "the cylindrical white plastic bin<bin_11>",
+                "<3>": "the sink<sink_3>"
+            },
+            "chinese_info": {
+                "<1>": "[浴缸 <bathtub_8>]",
+                "<2>": "[圆柱形的白色塑料桶 <bin_11>]",
+                "<3>": "[水槽 <sink_3>]"
+            }
+        },
+        {
+            "question": "Which two objects are on the same side of you now? \"the creamy white oval porcelain toilet with a smooth surface\", \"the medium white roll of toilet paper\", \"the sink\". ",
+            "answer": "the creamy white oval porcelain toilet with a smooth surface, the medium white roll of toilet paper",
+            "option": [
+                "the creamy white oval porcelain toilet with a smooth surface, the medium white roll of toilet paper",
+                "the creamy white oval porcelain toilet with a smooth surface, the sink",
+                "the medium white roll of toilet paper, the sink"
+            ],
+            "info": {
+                "toilet_7": "the creamy white oval porcelain toilet with a smooth surface",
+                "toilet paper_12": "the medium white roll of toilet paper",
+                "sink_3": "the sink"
+            },
+            "trans_question": "请问对于你目前来说，[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]、[中号白色的卷筒厕纸 <toilet paper_12>]、[水槽 <sink_3>]这三个物体中，哪两个在你的同侧？",
+            "trans_answer": "[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]和[中号白色的卷筒厕纸 <toilet paper_12>]在同侧。",
+            "trans_info": {
+                "<1>": "the creamy white oval porcelain toilet with a smooth surface<toilet_7>",
+                "<2>": "the medium white roll of toilet paper<toilet paper_12>",
+                "<3>": "the sink<sink_3>"
+            },
+            "chinese_info": {
+                "<1>": "[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]",
+                "<2>": "[中号白色的卷筒厕纸 <toilet paper_12>]",
+                "<3>": "[水槽 <sink_3>]"
+            }
+        },
+        {
+            "question": "Which two objects are on the same side of you now? \"the bathtub\", \"the medium white roll of toilet paper\", \"the sink\". ",
+            "answer": "the bathtub, the medium white roll of toilet paper",
+            "option": [
+                "the bathtub, the medium white roll of toilet paper",
+                "the bathtub, the sink",
+                "the medium white roll of toilet paper, the sink"
+            ],
+            "info": {
+                "bathtub_8": "the bathtub",
+                "toilet paper_12": "the medium white roll of toilet paper",
+                "sink_3": "the sink"
+            },
+            "trans_question": "请问对于你目前来说，[浴缸 <bathtub_8>]、[中号白色的卷筒厕纸 <toilet paper_12>]、[水槽 <sink_3>]这三个物体中，哪两个在你的同侧？",
+            "trans_answer": "[浴缸 <bathtub_8>]和[中号白色的卷筒厕纸 <toilet paper_12>]在同侧。",
+            "trans_info": {
+                "<1>": "the bathtub<bathtub_8>",
+                "<2>": "the medium white roll of toilet paper<toilet paper_12>",
+                "<3>": "the sink<sink_3>"
+            },
+            "chinese_info": {
+                "<1>": "[浴缸 <bathtub_8>]",
+                "<2>": "[中号白色的卷筒厕纸 <toilet paper_12>]",
+                "<3>": "[水槽 <sink_3>]"
+            }
+        },
+        {
+            "question": "Which two objects are on the same side of you now? \"the creamy white oval porcelain toilet with a smooth surface\", \"the bathtub\", \"the sink\". ",
+            "answer": "the creamy white oval porcelain toilet with a smooth surface, the bathtub",
+            "option": [
+                "the creamy white oval porcelain toilet with a smooth surface, the bathtub",
+                "the creamy white oval porcelain toilet with a smooth surface, the sink",
+                "the bathtub, the sink"
+            ],
+            "info": {
+                "toilet_7": "the creamy white oval porcelain toilet with a smooth surface",
+                "bathtub_8": "the bathtub",
+                "sink_3": "the sink"
+            },
+            "trans_question": "请问对于你目前来说，[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]、[浴缸 <bathtub_8>]、[水槽 <sink_3>]这三个物体中，哪两个在你的同侧？",
+            "trans_answer": "[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]和[浴缸 <bathtub_8>]在同侧。",
+            "trans_info": {
+                "<1>": "the creamy white oval porcelain toilet with a smooth surface<toilet_7>",
+                "<2>": "the bathtub<bathtub_8>",
+                "<3>": "the sink<sink_3>"
+            },
+            "chinese_info": {
+                "<1>": "[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]",
+                "<2>": "[浴缸 <bathtub_8>]",
+                "<3>": "[水槽 <sink_3>]"
+            }
+        },
+        {
+            "question": "Which two objects are on the same side of you now? \"the cylindrical white plastic bin\", \"the medium white roll of toilet paper\", \"the sink\". ",
+            "answer": "the cylindrical white plastic bin, the medium white roll of toilet paper",
+            "option": [
+                "the cylindrical white plastic bin, the medium white roll of toilet paper",
+                "the cylindrical white plastic bin, the sink",
+                "the medium white roll of toilet paper, the sink"
+            ],
+            "info": {
+                "bin_11": "the cylindrical white plastic bin",
+                "toilet paper_12": "the medium white roll of toilet paper",
+                "sink_3": "the sink"
+            },
+            "trans_question": "请问对于你目前来说，[圆柱形的白色塑料桶 <bin_11>]、[中号白色的卷筒厕纸 <toilet paper_12>]、[水槽 <sink_3>]这三个物体中，哪两个在你的同侧？",
+            "trans_answer": "[圆柱形的白色塑料桶 <bin_11>]和[中号白色的卷筒厕纸 <toilet paper_12>]在同侧。",
+            "trans_info": {
+                "<1>": "the cylindrical white plastic bin<bin_11>",
+                "<2>": "the medium white roll of toilet paper<toilet paper_12>",
+                "<3>": "the sink<sink_3>"
+            },
+            "chinese_info": {
+                "<1>": "[圆柱形的白色塑料桶 <bin_11>]",
+                "<2>": "[中号白色的卷筒厕纸 <toilet paper_12>]",
+                "<3>": "[水槽 <sink_3>]"
+            }
+        }
+    ],
+    "shuffle_order": [
+        1,
+        3,
+        2,
+        4,
+        0,
+        5
+    ],
+    "index": 0
+}

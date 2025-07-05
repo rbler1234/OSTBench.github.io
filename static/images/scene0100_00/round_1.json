@@ -1,0 +1,387 @@
+{
+    "turn_id": 1,
+    "type": "A_object-existence(option)",
+    "image_paths": [
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00000.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00040.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00080.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00120.jpg"
+    ],
+    "agent_pos": [
+        [
+            0.37,
+            -0.43
+        ],
+        [
+            0.35,
+            -0.35
+        ],
+        [
+            0.36,
+            -0.55
+        ],
+        [
+            0.29,
+            -0.68
+        ]
+    ],
+    "agent_front": [
+        [
+            -0.87,
+            0.09
+        ],
+        [
+            -0.82,
+            0.34
+        ],
+        [
+            -0.61,
+            0.57
+        ],
+        [
+            -0.47,
+            0.68
+        ]
+    ],
+    "candidate_": [
+        {
+            "question": "Remember, have you seen any toilet paper(s) so far? ",
+            "answer": "Yes",
+            "option": [
+                "Yes",
+                "No"
+            ],
+            "info": {
+                "pos_type": [
+                    "cup",
+                    "cabinet",
+                    "toilet",
+                    "bathtub",
+                    "towel",
+                    "bin",
+                    "toilet paper"
+                ]
+            },
+            "trans_question": "回忆历史信息，请问你有没有见过卫生纸？",
+            "trans_answer": "有",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "Remember, have you seen any cabinet(s) so far? ",
+            "answer": "Yes",
+            "option": [
+                "Yes",
+                "No"
+            ],
+            "info": {
+                "pos_type": [
+                    "cup",
+                    "cabinet",
+                    "toilet",
+                    "bathtub",
+                    "towel",
+                    "bin",
+                    "toilet paper"
+                ]
+            },
+            "trans_question": "回忆历史信息，请问你有没有见过橱柜？",
+            "trans_answer": "有",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "Remember, have you seen any cup(s) so far? ",
+            "answer": "Yes",
+            "option": [
+                "Yes",
+                "No"
+            ],
+            "info": {
+                "pos_type": [
+                    "cup",
+                    "cabinet",
+                    "toilet",
+                    "bathtub",
+                    "towel",
+                    "bin",
+                    "toilet paper"
+                ]
+            },
+            "trans_question": "回忆历史信息，请问你有没有见过杯子？",
+            "trans_answer": "有",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "Remember, have you seen any toilet(s) so far? ",
+            "answer": "Yes",
+            "option": [
+                "Yes",
+                "No"
+            ],
+            "info": {
+                "pos_type": [
+                    "cup",
+                    "cabinet",
+                    "toilet",
+                    "bathtub",
+                    "towel",
+                    "bin",
+                    "toilet paper"
+                ]
+            },
+            "trans_question": "回忆历史信息，请问你有没有见过马桶？",
+            "trans_answer": "有",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "Remember, have you seen any switch(s) so far? ",
+            "answer": "No",
+            "option": [
+                "Yes",
+                "No"
+            ],
+            "info": {
+                "pos_type": [
+                    "cup",
+                    "cabinet",
+                    "toilet",
+                    "bathtub",
+                    "towel",
+                    "bin",
+                    "toilet paper"
+                ]
+            },
+            "trans_question": "回忆历史信息，请问你有没有见过开关？",
+            "trans_answer": "没有",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "Remember, have you seen any cleanser(s) so far? ",
+            "answer": "No",
+            "option": [
+                "Yes",
+                "No"
+            ],
+            "info": {
+                "pos_type": [
+                    "cup",
+                    "cabinet",
+                    "toilet",
+                    "bathtub",
+                    "towel",
+                    "bin",
+                    "toilet paper"
+                ]
+            },
+            "trans_question": "回忆历史信息，请问你有没有见过清洁剂？",
+            "trans_answer": "没有",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "Remember, have you seen any hair dryer(s) so far? ",
+            "answer": "No",
+            "option": [
+                "Yes",
+                "No"
+            ],
+            "info": {
+                "pos_type": [
+                    "cup",
+                    "cabinet",
+                    "toilet",
+                    "bathtub",
+                    "towel",
+                    "bin",
+                    "toilet paper"
+                ]
+            },
+            "trans_question": "回忆历史信息，请问你有没有见过吹风机？",
+            "trans_answer": "没有",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "Remember, have you seen any bathtub(s) so far? ",
+            "answer": "Yes",
+            "option": [
+                "Yes",
+                "No"
+            ],
+            "info": {
+                "pos_type": [
+                    "cup",
+                    "cabinet",
+                    "toilet",
+                    "bathtub",
+                    "towel",
+                    "bin",
+                    "toilet paper"
+                ]
+            },
+            "trans_question": "回忆历史信息，请问你有没有见过浴缸？",
+            "trans_answer": "有",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "Remember, have you seen any blanket(s) so far? ",
+            "answer": "No",
+            "option": [
+                "Yes",
+                "No"
+            ],
+            "info": {
+                "pos_type": [
+                    "cup",
+                    "cabinet",
+                    "toilet",
+                    "bathtub",
+                    "towel",
+                    "bin",
+                    "toilet paper"
+                ]
+            },
+            "trans_question": "回忆历史信息，请问你有没有见过毯子？",
+            "trans_answer": "没有",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "Remember, have you seen any food(s) so far? ",
+            "answer": "No",
+            "option": [
+                "Yes",
+                "No"
+            ],
+            "info": {
+                "pos_type": [
+                    "cup",
+                    "cabinet",
+                    "toilet",
+                    "bathtub",
+                    "towel",
+                    "bin",
+                    "toilet paper"
+                ]
+            },
+            "trans_question": "回忆历史信息，请问你有没有见过食物？",
+            "trans_answer": "没有",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "Remember, have you seen any bin(s) so far? ",
+            "answer": "Yes",
+            "option": [
+                "Yes",
+                "No"
+            ],
+            "info": {
+                "pos_type": [
+                    "cup",
+                    "cabinet",
+                    "toilet",
+                    "bathtub",
+                    "towel",
+                    "bin",
+                    "toilet paper"
+                ]
+            },
+            "trans_question": "回忆历史信息，请问你有没有见过垃圾桶？",
+            "trans_answer": "有",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "Remember, have you seen any cart(s) so far? ",
+            "answer": "No",
+            "option": [
+                "Yes",
+                "No"
+            ],
+            "info": {
+                "pos_type": [
+                    "cup",
+                    "cabinet",
+                    "toilet",
+                    "bathtub",
+                    "towel",
+                    "bin",
+                    "toilet paper"
+                ]
+            },
+            "trans_question": "回忆历史信息，请问你有没有见过手推车？",
+            "trans_answer": "没有",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "Remember, have you seen any towel(s) so far? ",
+            "answer": "Yes",
+            "option": [
+                "Yes",
+                "No"
+            ],
+            "info": {
+                "pos_type": [
+                    "cup",
+                    "cabinet",
+                    "toilet",
+                    "bathtub",
+                    "towel",
+                    "bin",
+                    "toilet paper"
+                ]
+            },
+            "trans_question": "回忆历史信息，请问你有没有见过毛巾？",
+            "trans_answer": "有",
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "Remember, have you seen any paper(s) so far? ",
+            "answer": "No",
+            "option": [
+                "Yes",
+                "No"
+            ],
+            "info": {
+                "pos_type": [
+                    "cup",
+                    "cabinet",
+                    "toilet",
+                    "bathtub",
+                    "towel",
+                    "bin",
+                    "toilet paper"
+                ]
+            },
+            "trans_question": "回忆历史信息，请问你有没有见过纸？",
+            "trans_answer": "没有",
+            "trans_info": {},
+            "chinese_info": {}
+        }
+    ],
+    "shuffle_order": [
+        13,
+        8,
+        7,
+        9,
+        1,
+        5,
+        3,
+        10,
+        6,
+        2,
+        12,
+        4,
+        11,
+        0
+    ],
+    "index": 0
+}

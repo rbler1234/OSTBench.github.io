@@ -1,0 +1,93 @@
+{
+    "turn_id": 1,
+    "type": "A_object-quantity(int)",
+    "image_paths": [
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00000.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00040.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00080.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00120.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00160.jpg"
+    ],
+    "agent_pos": [
+        [
+            0.11,
+            -0.97
+        ],
+        [
+            0.05,
+            -0.92
+        ],
+        [
+            -0.01,
+            -0.79
+        ],
+        [
+            -0.03,
+            -0.64
+        ],
+        [
+            -0.06,
+            -0.73
+        ]
+    ],
+    "agent_front": [
+        [
+            -0.66,
+            -0.57
+        ],
+        [
+            -0.78,
+            -0.31
+        ],
+        [
+            -0.84,
+            -0.06
+        ],
+        [
+            -0.83,
+            0.21
+        ],
+        [
+            -0.65,
+            0.59
+        ]
+    ],
+    "candidate_": [
+        {
+            "question": "Remember, how many backpack(s) have you seen so far? ",
+            "answer": 2,
+            "option": [],
+            "info": {},
+            "trans_question": "基于历史信息，请问你见过了多少背包？",
+            "trans_answer": 2,
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "Remember, how many chair(s) have you seen so far? ",
+            "answer": 2,
+            "option": [],
+            "info": {},
+            "trans_question": "基于历史信息，请问你见过了多少椅子？",
+            "trans_answer": 2,
+            "trans_info": {},
+            "chinese_info": {}
+        },
+        {
+            "question": "Remember, how many footstool(s) have you seen so far? ",
+            "answer": 0,
+            "option": [],
+            "info": {},
+            "trans_question": "基于历史信息，请问你见过了多少脚踏凳？",
+            "trans_answer": 0,
+            "trans_info": {},
+            "chinese_info": {}
+        }
+    ],
+    "shuffle_order": [
+        2,
+        1,
+        0
+    ],
+    "index": 0
+}

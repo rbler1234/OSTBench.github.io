@@ -1,0 +1,141 @@
+{
+    "turn_id": 5,
+    "type": "AO_direction(option3)",
+    "image_paths": [
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00800.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00840.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00880.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00920.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/00960.jpg"
+    ],
+    "agent_pos": [
+        [
+            0.65,
+            -1.21
+        ],
+        [
+            0.16,
+            -0.97
+        ],
+        [
+            -0.23,
+            -0.62
+        ],
+        [
+            -0.26,
+            -0.5
+        ],
+        [
+            -0.23,
+            -0.65
+        ]
+    ],
+    "agent_front": [
+        [
+            -0.84,
+            -0.45
+        ],
+        [
+            -0.46,
+            -0.69
+        ],
+        [
+            -0.41,
+            -0.74
+        ],
+        [
+            -0.43,
+            -0.66
+        ],
+        [
+            -0.46,
+            -0.83
+        ]
+    ],
+    "candidate_": [
+        {
+            "question": "Which two objects are on the same side of you now? \"the rectangular, creamy textured pillow made of cotton\", \"the medium-sized brown leather couch\", \"the plain gray vertical printer made of plastic\". ",
+            "answer": "the rectangular, creamy textured pillow made of cotton, the medium-sized brown leather couch",
+            "option": [
+                "the rectangular, creamy textured pillow made of cotton, the medium-sized brown leather couch",
+                "the rectangular, creamy textured pillow made of cotton, the plain gray vertical printer made of plastic",
+                "the medium-sized brown leather couch, the plain gray vertical printer made of plastic"
+            ],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "couch_12": "the medium-sized brown leather couch",
+                "printer_14": "the plain gray vertical printer made of plastic"
+            },
+            "trans_question": "请问对于你目前来说，[棉制的长方形奶油色纹理枕头 <pillow_40>]、[中等尺寸的棕色皮沙发 <couch_12>]、[由塑料制成的灰色竖立的打印机 <printer_14>]这三个物体中，哪两个在你的同侧？",
+            "trans_answer": "[棉制的长方形奶油色纹理枕头 <pillow_40>]和[中等尺寸的棕色皮沙发 <couch_12>]在同侧。",
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the medium-sized brown leather couch<couch_12>",
+                "<3>": "the plain gray vertical printer made of plastic<printer_14>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<3>": "[由塑料制成的灰色竖立的打印机 <printer_14>]"
+            }
+        },
+        {
+            "question": "Which two objects are on the same side of you now? \"the medium-sized brown leather couch\", \"the plain gray vertical printer made of plastic\", \"the cylindrical teal-handled cup with a white interior\". ",
+            "answer": "the plain gray vertical printer made of plastic, the cylindrical teal-handled cup with a white interior",
+            "option": [
+                "the medium-sized brown leather couch, the plain gray vertical printer made of plastic",
+                "the medium-sized brown leather couch, the cylindrical teal-handled cup with a white interior",
+                "the plain gray vertical printer made of plastic, the cylindrical teal-handled cup with a white interior"
+            ],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch",
+                "printer_14": "the plain gray vertical printer made of plastic",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "请问对于你目前来说，[中等尺寸的棕色皮沙发 <couch_12>]、[由塑料制成的灰色竖立的打印机 <printer_14>]、[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]这三个物体中，哪两个在你的同侧？",
+            "trans_answer": "[由塑料制成的灰色竖立的打印机 <printer_14>]和[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]在同侧。",
+            "trans_info": {
+                "<1>": "the medium-sized brown leather couch<couch_12>",
+                "<2>": "the plain gray vertical printer made of plastic<printer_14>",
+                "<3>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<2>": "[由塑料制成的灰色竖立的打印机 <printer_14>]",
+                "<3>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        },
+        {
+            "question": "Which two objects are on the same side of you now? \"the rectangular, creamy textured pillow made of cotton\", \"the medium-sized brown leather couch\", \"the cylindrical teal-handled cup with a white interior\". ",
+            "answer": "the rectangular, creamy textured pillow made of cotton, the medium-sized brown leather couch",
+            "option": [
+                "the rectangular, creamy textured pillow made of cotton, the medium-sized brown leather couch",
+                "the rectangular, creamy textured pillow made of cotton, the cylindrical teal-handled cup with a white interior",
+                "the medium-sized brown leather couch, the cylindrical teal-handled cup with a white interior"
+            ],
+            "info": {
+                "pillow_40": "the rectangular, creamy textured pillow made of cotton",
+                "couch_12": "the medium-sized brown leather couch",
+                "cup_22": "the cylindrical teal-handled cup with a white interior"
+            },
+            "trans_question": "请问对于你目前来说，[棉制的长方形奶油色纹理枕头 <pillow_40>]、[中等尺寸的棕色皮沙发 <couch_12>]、[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]这三个物体中，哪两个在你的同侧？",
+            "trans_answer": "[棉制的长方形奶油色纹理枕头 <pillow_40>]和[中等尺寸的棕色皮沙发 <couch_12>]在同侧。",
+            "trans_info": {
+                "<1>": "the rectangular, creamy textured pillow made of cotton<pillow_40>",
+                "<2>": "the medium-sized brown leather couch<couch_12>",
+                "<3>": "the cylindrical teal-handled cup with a white interior<cup_22>"
+            },
+            "chinese_info": {
+                "<1>": "[棉制的长方形奶油色纹理枕头 <pillow_40>]",
+                "<2>": "[中等尺寸的棕色皮沙发 <couch_12>]",
+                "<3>": "[带白色内饰的圆柱形青蓝色手柄的杯子 <cup_22>]"
+            }
+        }
+    ],
+    "shuffle_order": [
+        0,
+        2,
+        1
+    ],
+    "index": 0
+}

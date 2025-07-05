@@ -1,0 +1,128 @@
+{
+    "turn_id": 9,
+    "type": "AO_distance(int)",
+    "image_paths": [
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01600.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01640.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01680.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01720.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0050_00/01760.jpg"
+    ],
+    "agent_pos": [
+        [
+            -1.4,
+            -0.95
+        ],
+        [
+            -1.5,
+            -1.18
+        ],
+        [
+            -1.56,
+            -1.35
+        ],
+        [
+            -1.57,
+            -1.39
+        ],
+        [
+            -1.51,
+            -1.42
+        ]
+    ],
+    "agent_front": [
+        [
+            0.44,
+            0.3
+        ],
+        [
+            0.2,
+            0.54
+        ],
+        [
+            0.02,
+            0.76
+        ],
+        [
+            0.15,
+            0.93
+        ],
+        [
+            0.18,
+            0.98
+        ]
+    ],
+    "candidate_": [
+        {
+            "question": "In which turn were you closest to \"the white rectangular tissue box with floral patterns\"? ",
+            "answer": 5,
+            "option": [],
+            "info": {
+                "tissue box_6": "the white rectangular tissue box with floral patterns"
+            },
+            "trans_question": "基于历史信息，[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]在哪一轮离你最近？",
+            "trans_answer": 5,
+            "trans_info": {
+                "<1>": "the white rectangular tissue box with floral patterns<tissue box_6>"
+            },
+            "chinese_info": {
+                "<1>": "[带有花卉图案的白色长方形纸巾盒 <tissue box_6>]"
+            }
+        },
+        {
+            "question": "In which turn were you closest to \"the deep brown wooden piano with a music stand\"? ",
+            "answer": 7,
+            "option": [],
+            "info": {
+                "piano_1": "the deep brown wooden piano with a music stand"
+            },
+            "trans_question": "基于历史信息，[深棕色的木质钢琴带有乐谱架 <piano_1>]在哪一轮离你最近？",
+            "trans_answer": 7,
+            "trans_info": {
+                "<1>": "the deep brown wooden piano with a music stand<piano_1>"
+            },
+            "chinese_info": {
+                "<1>": "[深棕色的木质钢琴带有乐谱架 <piano_1>]"
+            }
+        },
+        {
+            "question": "In which turn were you closest to \"the rectangular brown leather ottoman with a smooth top\"? ",
+            "answer": 5,
+            "option": [],
+            "info": {
+                "ottoman_11": "the rectangular brown leather ottoman with a smooth top"
+            },
+            "trans_question": "基于历史信息，[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]在哪一轮离你最近？",
+            "trans_answer": 5,
+            "trans_info": {
+                "<1>": "the rectangular brown leather ottoman with a smooth top<ottoman_11>"
+            },
+            "chinese_info": {
+                "<1>": "[棕色矩形皮革平滑顶的脚踏垫 <ottoman_11>]"
+            }
+        },
+        {
+            "question": "In which turn were you closest to \"the medium-sized brown leather couch\"? ",
+            "answer": 8,
+            "option": [],
+            "info": {
+                "couch_12": "the medium-sized brown leather couch"
+            },
+            "trans_question": "基于历史信息，[中等尺寸的棕色皮沙发 <couch_12>]在哪一轮离你最近？",
+            "trans_answer": 8,
+            "trans_info": {
+                "<1>": "the medium-sized brown leather couch<couch_12>"
+            },
+            "chinese_info": {
+                "<1>": "[中等尺寸的棕色皮沙发 <couch_12>]"
+            }
+        }
+    ],
+    "shuffle_order": [
+        1,
+        0,
+        2,
+        3
+    ],
+    "index": 0
+}

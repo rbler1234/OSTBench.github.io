@@ -1,0 +1,151 @@
+{
+    "turn_id": 3,
+    "type": "AO_direction(int)",
+    "image_paths": [
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00320.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00360.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00400.jpg",
+        "/mnt/hwfile/OpenRobotLab/maoxiaohan/transfer/ScanNet_v2/posed_images/scene0100_00/00440.jpg"
+    ],
+    "agent_pos": [
+        [
+            0.27,
+            -0.38
+        ],
+        [
+            0.05,
+            -0.24
+        ],
+        [
+            -0.1,
+            -0.1
+        ],
+        [
+            -0.33,
+            -0.03
+        ]
+    ],
+    "agent_front": [
+        [
+            -0.67,
+            0.58
+        ],
+        [
+            -0.86,
+            0.26
+        ],
+        [
+            -0.85,
+            -0.36
+        ],
+        [
+            -0.55,
+            -0.81
+        ]
+    ],
+    "candidate_": [
+        {
+            "question": "At the end of which turn were both of \"the creamy white oval porcelain toilet with a smooth surface\" and \"the cylindrical white plastic bin\" on your right side?",
+            "answer": 3,
+            "option": [],
+            "info": {
+                "toilet_7": "the creamy white oval porcelain toilet with a smooth surface",
+                "bin_11": "the cylindrical white plastic bin"
+            },
+            "trans_question": "基于历史信息，在哪一轮结束时，[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]和[圆柱形的白色塑料桶 <bin_11>]都在你的右边(符合条件的轮次是唯一的)？",
+            "trans_answer": 3,
+            "trans_info": {
+                "<1>": "the creamy white oval porcelain toilet with a smooth surface<toilet_7>",
+                "<2>": "the cylindrical white plastic bin<bin_11>"
+            },
+            "chinese_info": {
+                "<1>": "[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]",
+                "<2>": "[圆柱形的白色塑料桶 <bin_11>]"
+            }
+        },
+        {
+            "question": "At the end of which turn were both of \"the cylindrical white plastic bin\" and \"the medium white roll of toilet paper\" on your right side?",
+            "answer": 3,
+            "option": [],
+            "info": {
+                "bin_11": "the cylindrical white plastic bin",
+                "toilet paper_12": "the medium white roll of toilet paper"
+            },
+            "trans_question": "基于历史信息，在哪一轮结束时，[圆柱形的白色塑料桶 <bin_11>]和[中号白色的卷筒厕纸 <toilet paper_12>]都在你的右边(符合条件的轮次是唯一的)？",
+            "trans_answer": 3,
+            "trans_info": {
+                "<1>": "the cylindrical white plastic bin<bin_11>",
+                "<2>": "the medium white roll of toilet paper<toilet paper_12>"
+            },
+            "chinese_info": {
+                "<1>": "[圆柱形的白色塑料桶 <bin_11>]",
+                "<2>": "[中号白色的卷筒厕纸 <toilet paper_12>]"
+            }
+        },
+        {
+            "question": "At the end of which turn were both of \"the creamy white oval porcelain toilet with a smooth surface\" and \"the medium white roll of toilet paper\" on your right side?",
+            "answer": 3,
+            "option": [],
+            "info": {
+                "toilet_7": "the creamy white oval porcelain toilet with a smooth surface",
+                "toilet paper_12": "the medium white roll of toilet paper"
+            },
+            "trans_question": "基于历史信息，在哪一轮结束时，[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]和[中号白色的卷筒厕纸 <toilet paper_12>]都在你的右边(符合条件的轮次是唯一的)？",
+            "trans_answer": 3,
+            "trans_info": {
+                "<1>": "the creamy white oval porcelain toilet with a smooth surface<toilet_7>",
+                "<2>": "the medium white roll of toilet paper<toilet paper_12>"
+            },
+            "chinese_info": {
+                "<1>": "[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]",
+                "<2>": "[中号白色的卷筒厕纸 <toilet paper_12>]"
+            }
+        },
+        {
+            "question": "At the end of which turn were both of \"the creamy white oval porcelain toilet with a smooth surface\" and \"the cylindrical white plastic bin\" on your left side?",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "toilet_7": "the creamy white oval porcelain toilet with a smooth surface",
+                "bin_11": "the cylindrical white plastic bin"
+            },
+            "trans_question": "基于历史信息，在哪一轮结束时，[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]和[圆柱形的白色塑料桶 <bin_11>]都在你的左边(符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the creamy white oval porcelain toilet with a smooth surface<toilet_7>",
+                "<2>": "the cylindrical white plastic bin<bin_11>"
+            },
+            "chinese_info": {
+                "<1>": "[奶白色的椭圆形光滑瓷质马桶 <toilet_7>]",
+                "<2>": "[圆柱形的白色塑料桶 <bin_11>]"
+            }
+        },
+        {
+            "question": "At the end of which turn were both of \"the cylindrical white plastic bin\" and \"the medium white roll of toilet paper\" on your left side?",
+            "answer": 2,
+            "option": [],
+            "info": {
+                "bin_11": "the cylindrical white plastic bin",
+                "toilet paper_12": "the medium white roll of toilet paper"
+            },
+            "trans_question": "基于历史信息，在哪一轮结束时，[圆柱形的白色塑料桶 <bin_11>]和[中号白色的卷筒厕纸 <toilet paper_12>]都在你的左边(符合条件的轮次是唯一的)？",
+            "trans_answer": 2,
+            "trans_info": {
+                "<1>": "the cylindrical white plastic bin<bin_11>",
+                "<2>": "the medium white roll of toilet paper<toilet paper_12>"
+            },
+            "chinese_info": {
+                "<1>": "[圆柱形的白色塑料桶 <bin_11>]",
+                "<2>": "[中号白色的卷筒厕纸 <toilet paper_12>]"
+            }
+        }
+    ],
+    "shuffle_order": [
+        1,
+        4,
+        2,
+        0,
+        3
+    ],
+    "index": 0
+}
